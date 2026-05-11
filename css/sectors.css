@@ -1,0 +1,254 @@
+/* ================================================================
+   Kardashev — Energy by Sector page styles
+   ================================================================ */
+
+/* ── Section shell ────────────────────────────────────────────── */
+.sc-section {
+  width: min(100%, 1100px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.sc-hd {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.sc-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(0.8rem, 2vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.yr-tag {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.58rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+}
+
+.sc-desc {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-top: 0.25rem;
+}
+
+/* ── Total badge ──────────────────────────────────────────────── */
+.total-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.tb-val {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1;
+}
+
+.tb-unit {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-top: 0.2rem;
+}
+
+/* ── Card ─────────────────────────────────────────────────────── */
+.sc-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+}
+
+/* ── Bar chart area ───────────────────────────────────────────── */
+.chart-card { padding: 1.25rem 1.5rem 1rem; }
+
+.bar-area {
+  position: relative;
+  height: clamp(220px, 35vw, 340px);
+}
+
+/* ── Sector cards grid ────────────────────────────────────────── */
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.sector-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--sc-color, var(--accent));
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.sector-card:hover {
+  background: rgba(15, 23, 42, 0.9);
+  border-color: var(--sc-color, var(--accent));
+}
+
+.sc-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sc-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.sc-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--sc-color, var(--accent));
+  text-transform: uppercase;
+}
+
+.sc-value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1;
+  letter-spacing: 0.02em;
+}
+
+.sc-unit-label {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-top: -0.3rem;
+}
+
+/* Proportion bar + percentage */
+.sc-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.sc-bar {
+  flex: 1;
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.sc-fill {
+  height: 100%;
+  border-radius: 3px;
+  background: var(--sc-color, var(--accent));
+  opacity: 0.75;
+}
+
+.sc-pct {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.72rem;
+  color: var(--sc-color, var(--accent));
+  min-width: 3.2em;
+  text-align: right;
+}
+
+/* Per-capita line */
+.sc-percapita {
+  font-size: 0.72rem;
+  color: var(--text-mid);
+}
+
+.sc-percapita strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+/* Description */
+.sc-desc-text {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+  padding-top: 0.1rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Data note ────────────────────────────────────────────────── */
+.data-note {
+  width: min(100%, 1100px);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  padding: 0.85rem 1.1rem;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid var(--border);
+  border-left: 3px solid rgba(249, 115, 22, 0.4);
+  border-radius: 6px;
+}
+
+.data-note strong { color: var(--text-mid); }
+
+.data-note a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.data-note a:hover { text-decoration: underline; }
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .chart-card { padding: 1rem; }
+  .bar-area { height: clamp(200px, 55vw, 280px); }
+  .sc-hd { gap: 0.6rem; }
+  .total-badge { align-items: flex-start; }
+
+  /* 3 rows × 2 columns on mobile */
+  .sector-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.65rem;
+  }
+
+  .sector-card {
+    padding: 0.85rem 0.8rem;
+    gap: 0.3rem;
+  }
+
+  /* Description grows to fill leftover space → cards in each row stay equal height */
+  .sc-desc-text {
+    flex: 1;
+    padding-top: 0.3rem;
+  }
+
+  .sc-value      { font-size: clamp(1.05rem, 7vw, 1.4rem); }
+  .sc-icon       { font-size: 1rem; }
+  .sc-name       { font-size: 0.58rem; }
+  .sc-unit-label { font-size: 0.58rem; }
+  .sc-percapita  { font-size: 0.62rem; }
+  .sc-pct        { font-size: 0.63rem; min-width: 2.8em; }
+}

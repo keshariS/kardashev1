@@ -1,0 +1,783 @@
+{
+  "data_year": 2024,
+  "dataset_published": "April 2026",
+  "unit": "TWh",
+  "world": {
+    "coal": 45850.5,
+    "oil": 55292.1,
+    "gas": 41278.3,
+    "nuclear": 6871.8,
+    "hydro": 10860.8,
+    "solar": 5150.6,
+    "wind": 6124.5,
+    "biofuels": 1366.9,
+    "other_renewables": 2476.4
+  },
+  "trend": [
+    {
+      "year": 1974,
+      "total_twh": 66696.5,
+      "sources": {
+        "coal": 17696.4,
+        "oil": 32230.4,
+        "gas": 11659.9,
+        "nuclear": 740.6,
+        "hydro": 3975.6,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 14.3,
+        "other_renewables": 107.2
+      }
+    },
+    {
+      "year": 1975,
+      "total_twh": 67157.3,
+      "sources": {
+        "coal": 18045.4,
+        "oil": 31996.5,
+        "gas": 11659.7,
+        "nuclear": 1027.4,
+        "hydro": 4024.7,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 13.7,
+        "other_renewables": 108.8
+      }
+    },
+    {
+      "year": 1976,
+      "total_twh": 70744.8,
+      "sources": {
+        "coal": 18699.8,
+        "oil": 34061.5,
+        "gas": 12354.1,
+        "nuclear": 1201.9,
+        "hydro": 4008.7,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 13.8,
+        "other_renewables": 121.2
+      }
+    },
+    {
+      "year": 1977,
+      "total_twh": 73306.2,
+      "sources": {
+        "coal": 19267.4,
+        "oil": 35194.3,
+        "gas": 12759.8,
+        "nuclear": 1496.0,
+        "hydro": 4143.5,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 18.3,
+        "other_renewables": 127.8
+      }
+    },
+    {
+      "year": 1978,
+      "total_twh": 76179.0,
+      "sources": {
+        "coal": 19467.5,
+        "oil": 36710.0,
+        "gas": 13293.9,
+        "nuclear": 1738.3,
+        "hydro": 4484.4,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 23.2,
+        "other_renewables": 135.3
+      }
+    },
+    {
+      "year": 1979,
+      "total_twh": 78698.6,
+      "sources": {
+        "coal": 20370.6,
+        "oil": 37178.0,
+        "gas": 14118.0,
+        "nuclear": 1807.9,
+        "hydro": 4708.9,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 28.0,
+        "other_renewables": 145.3
+      }
+    },
+    {
+      "year": 1980,
+      "total_twh": 78010.6,
+      "sources": {
+        "coal": 20877.8,
+        "oil": 35568.6,
+        "gas": 14237.0,
+        "nuclear": 1977.6,
+        "hydro": 4810.1,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 32.8,
+        "other_renewables": 155.4
+      }
+    },
+    {
+      "year": 1981,
+      "total_twh": 77654.8,
+      "sources": {
+        "coal": 21158.0,
+        "oil": 34290.0,
+        "gas": 14395.9,
+        "nuclear": 2335.4,
+        "hydro": 4913.6,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 29.7,
+        "other_renewables": 167.1
+      }
+    },
+    {
+      "year": 1982,
+      "total_twh": 77277.6,
+      "sources": {
+        "coal": 21395.4,
+        "oil": 33270.0,
+        "gas": 14469.7,
+        "nuclear": 2533.8,
+        "hydro": 5002.5,
+        "solar": 0.0,
+        "wind": 0.1,
+        "biofuels": 37.6,
+        "other_renewables": 192.8
+      }
+    },
+    {
+      "year": 1983,
+      "total_twh": 78599.1,
+      "sources": {
+        "coal": 22051.0,
+        "oil": 33097.4,
+        "gas": 14703.8,
+        "nuclear": 2871.7,
+        "hydro": 5216.0,
+        "solar": 0.0,
+        "wind": 0.1,
+        "biofuels": 49.0,
+        "other_renewables": 213.6
+      }
+    },
+    {
+      "year": 1984,
+      "total_twh": 82129.5,
+      "sources": {
+        "coal": 23008.4,
+        "oil": 33623.6,
+        "gas": 15902.7,
+        "nuclear": 3484.9,
+        "hydro": 5392.7,
+        "solar": 0.0,
+        "wind": 0.1,
+        "biofuels": 57.8,
+        "other_renewables": 238.6
+      }
+    },
+    {
+      "year": 1985,
+      "total_twh": 84332.9,
+      "sources": {
+        "coal": 23996.7,
+        "oil": 33684.7,
+        "gas": 16262.2,
+        "nuclear": 4135.9,
+        "hydro": 5497.9,
+        "solar": 0.0,
+        "wind": 0.2,
+        "biofuels": 68.4,
+        "other_renewables": 245.9
+      }
+    },
+    {
+      "year": 1986,
+      "total_twh": 86200.8,
+      "sources": {
+        "coal": 24263.8,
+        "oil": 34710.5,
+        "gas": 16421.1,
+        "nuclear": 4429.8,
+        "hydro": 5572.4,
+        "solar": 0.0,
+        "wind": 0.4,
+        "biofuels": 84.2,
+        "other_renewables": 267.0
+      }
+    },
+    {
+      "year": 1987,
+      "total_twh": 89321.4,
+      "sources": {
+        "coal": 25228.5,
+        "oil": 35508.2,
+        "gas": 17281.9,
+        "nuclear": 4818.7,
+        "hydro": 5647.8,
+        "solar": 0.0,
+        "wind": 0.5,
+        "biofuels": 85.3,
+        "other_renewables": 286.0
+      }
+    },
+    {
+      "year": 1988,
+      "total_twh": 92666.6,
+      "sources": {
+        "coal": 25983.1,
+        "oil": 36641.9,
+        "gas": 18088.8,
+        "nuclear": 5253.5,
+        "hydro": 5828.7,
+        "solar": 0.0,
+        "wind": 0.9,
+        "biofuels": 89.6,
+        "other_renewables": 294.3
+      }
+    },
+    {
+      "year": 1989,
+      "total_twh": 94454.0,
+      "sources": {
+        "coal": 26231.0,
+        "oil": 37215.7,
+        "gas": 18888.6,
+        "nuclear": 5402.8,
+        "hydro": 5798.9,
+        "solar": 0.7,
+        "wind": 7.4,
+        "biofuels": 95.7,
+        "other_renewables": 327.1
+      }
+    },
+    {
+      "year": 1990,
+      "total_twh": 95856.3,
+      "sources": {
+        "coal": 25928.9,
+        "oil": 37906.8,
+        "gas": 19481.2,
+        "nuclear": 5557.2,
+        "hydro": 5996.2,
+        "solar": 1.1,
+        "wind": 10.1,
+        "biofuels": 106.6,
+        "other_renewables": 366.3
+      }
+    },
+    {
+      "year": 1991,
+      "total_twh": 96516.4,
+      "sources": {
+        "coal": 25686.7,
+        "oil": 37876.8,
+        "gas": 19972.8,
+        "nuclear": 5823.1,
+        "hydro": 6134.8,
+        "solar": 1.4,
+        "wind": 11.3,
+        "biofuels": 110.6,
+        "other_renewables": 382.1
+      }
+    },
+    {
+      "year": 1992,
+      "total_twh": 97104.9,
+      "sources": {
+        "coal": 25584.3,
+        "oil": 38404.8,
+        "gas": 20063.5,
+        "nuclear": 5867.3,
+        "hydro": 6134.2,
+        "solar": 1.3,
+        "wind": 13.1,
+        "biofuels": 108.7,
+        "other_renewables": 409.9
+      }
+    },
+    {
+      "year": 1993,
+      "total_twh": 97894.8,
+      "sources": {
+        "coal": 25708.8,
+        "oil": 38246.2,
+        "gas": 20265.5,
+        "nuclear": 6069.3,
+        "hydro": 6503.7,
+        "solar": 1.5,
+        "wind": 15.8,
+        "biofuels": 114.3,
+        "other_renewables": 423.4
+      }
+    },
+    {
+      "year": 1994,
+      "total_twh": 99137.2,
+      "sources": {
+        "coal": 25815.2,
+        "oil": 39068.2,
+        "gas": 20389.6,
+        "nuclear": 6183.3,
+        "hydro": 6544.2,
+        "solar": 1.7,
+        "wind": 19.8,
+        "biofuels": 124.1,
+        "other_renewables": 439.6
+      }
+    },
+    {
+      "year": 1995,
+      "total_twh": 101315.4,
+      "sources": {
+        "coal": 25999.2,
+        "oil": 39666.4,
+        "gas": 21104.5,
+        "nuclear": 6451.5,
+        "hydro": 6898.3,
+        "solar": 1.8,
+        "wind": 23.0,
+        "biofuels": 131.1,
+        "other_renewables": 458.3
+      }
+    },
+    {
+      "year": 1996,
+      "total_twh": 104245.8,
+      "sources": {
+        "coal": 26617.5,
+        "oil": 40576.6,
+        "gas": 22159.3,
+        "nuclear": 6685.0,
+        "hydro": 6991.2,
+        "solar": 1.9,
+        "wind": 25.6,
+        "biofuels": 125.8,
+        "other_renewables": 470.9
+      }
+    },
+    {
+      "year": 1997,
+      "total_twh": 105269.3,
+      "sources": {
+        "coal": 26563.3,
+        "oil": 41652.1,
+        "gas": 22030.4,
+        "nuclear": 6639.1,
+        "hydro": 7114.9,
+        "solar": 2.1,
+        "wind": 33.4,
+        "biofuels": 130.0,
+        "other_renewables": 504.4
+      }
+    },
+    {
+      "year": 1998,
+      "total_twh": 105852.4,
+      "sources": {
+        "coal": 26396.0,
+        "oil": 41788.6,
+        "gas": 22434.0,
+        "nuclear": 6753.3,
+        "hydro": 7169.3,
+        "solar": 2.3,
+        "wind": 44.2,
+        "biofuels": 133.4,
+        "other_renewables": 525.7
+      }
+    },
+    {
+      "year": 1999,
+      "total_twh": 107614.0,
+      "sources": {
+        "coal": 26508.8,
+        "oil": 42435.8,
+        "gas": 23071.9,
+        "nuclear": 7010.3,
+        "hydro": 7223.5,
+        "solar": 2.5,
+        "wind": 59.0,
+        "biofuels": 135.2,
+        "other_renewables": 552.0
+      }
+    },
+    {
+      "year": 2000,
+      "total_twh": 110416.4,
+      "sources": {
+        "coal": 27456.4,
+        "oil": 43016.6,
+        "gas": 23994.3,
+        "nuclear": 7168.5,
+        "hydro": 7351.9,
+        "solar": 2.9,
+        "wind": 87.2,
+        "biofuels": 132.5,
+        "other_renewables": 577.9
+      }
+    },
+    {
+      "year": 2001,
+      "total_twh": 111493.3,
+      "sources": {
+        "coal": 27880.1,
+        "oil": 43398.3,
+        "gas": 24316.8,
+        "nuclear": 7330.2,
+        "hydro": 7123.2,
+        "solar": 3.9,
+        "wind": 106.0,
+        "biofuels": 131.4,
+        "other_renewables": 600.2
+      }
+    },
+    {
+      "year": 2002,
+      "total_twh": 113894.4,
+      "sources": {
+        "coal": 28982.2,
+        "oil": 43697.1,
+        "gas": 25051.9,
+        "nuclear": 7386.1,
+        "hydro": 7194.9,
+        "solar": 4.9,
+        "wind": 143.5,
+        "biofuels": 149.3,
+        "other_renewables": 646.2
+      }
+    },
+    {
+      "year": 2003,
+      "total_twh": 117849.6,
+      "sources": {
+        "coal": 31519.6,
+        "oil": 44610.9,
+        "gas": 25727.7,
+        "nuclear": 7197.1,
+        "hydro": 7147.0,
+        "solar": 6.1,
+        "wind": 172.4,
+        "biofuels": 168.9,
+        "other_renewables": 682.6
+      }
+    },
+    {
+      "year": 2004,
+      "total_twh": 123841.7,
+      "sources": {
+        "coal": 33709.0,
+        "oil": 46413.2,
+        "gas": 26781.6,
+        "nuclear": 7483.4,
+        "hydro": 7632.9,
+        "solar": 8.0,
+        "wind": 232.0,
+        "biofuels": 201.2,
+        "other_renewables": 737.8
+      }
+    },
+    {
+      "year": 2005,
+      "total_twh": 127936.7,
+      "sources": {
+        "coal": 36201.0,
+        "oil": 47016.9,
+        "gas": 27439.2,
+        "nuclear": 7442.5,
+        "hydro": 7826.0,
+        "solar": 11.2,
+        "wind": 281.3,
+        "biofuels": 234.5,
+        "other_renewables": 798.4
+      }
+    },
+    {
+      "year": 2006,
+      "total_twh": 131481.2,
+      "sources": {
+        "coal": 38087.0,
+        "oil": 47437.0,
+        "gas": 28171.7,
+        "nuclear": 7494.9,
+        "hydro": 8080.8,
+        "solar": 15.4,
+        "wind": 357.0,
+        "biofuels": 294.6,
+        "other_renewables": 850.2
+      }
+    },
+    {
+      "year": 2007,
+      "total_twh": 135618.0,
+      "sources": {
+        "coal": 40241.7,
+        "oil": 48087.5,
+        "gas": 29338.3,
+        "nuclear": 7303.1,
+        "hydro": 8171.3,
+        "solar": 20.8,
+        "wind": 456.1,
+        "biofuels": 391.7,
+        "other_renewables": 922.8
+      }
+    },
+    {
+      "year": 2008,
+      "total_twh": 137229.4,
+      "sources": {
+        "coal": 40796.6,
+        "oil": 47692.7,
+        "gas": 30050.7,
+        "nuclear": 7222.8,
+        "hydro": 8579.4,
+        "solar": 33.5,
+        "wind": 584.2,
+        "biofuels": 535.9,
+        "other_renewables": 987.3
+      }
+    },
+    {
+      "year": 2009,
+      "total_twh": 135033.2,
+      "sources": {
+        "coal": 40219.0,
+        "oil": 46634.0,
+        "gas": 29403.6,
+        "nuclear": 7083.3,
+        "hydro": 8520.6,
+        "solar": 55.3,
+        "wind": 726.5,
+        "biofuels": 600.6,
+        "other_renewables": 1057.0
+      }
+    },
+    {
+      "year": 2010,
+      "total_twh": 141602.0,
+      "sources": {
+        "coal": 42016.0,
+        "oil": 48192.5,
+        "gas": 31592.9,
+        "nuclear": 7209.0,
+        "hydro": 8932.6,
+        "solar": 88.3,
+        "wind": 902.1,
+        "biofuels": 678.9,
+        "other_renewables": 1182.4
+      }
+    },
+    {
+      "year": 2011,
+      "total_twh": 144913.3,
+      "sources": {
+        "coal": 43983.4,
+        "oil": 48578.3,
+        "gas": 32349.9,
+        "nuclear": 6871.6,
+        "hydro": 9048.1,
+        "solar": 170.3,
+        "wind": 1142.3,
+        "biofuels": 717.3,
+        "other_renewables": 1240.7
+      }
+    },
+    {
+      "year": 2012,
+      "total_twh": 147002.4,
+      "sources": {
+        "coal": 44098.7,
+        "oil": 49362.2,
+        "gas": 33246.4,
+        "nuclear": 6367.4,
+        "hydro": 9385.1,
+        "solar": 261.6,
+        "wind": 1368.1,
+        "biofuels": 746.4,
+        "other_renewables": 1339.8
+      }
+    },
+    {
+      "year": 2013,
+      "total_twh": 149599.7,
+      "sources": {
+        "coal": 44745.5,
+        "oil": 49922.8,
+        "gas": 33733.3,
+        "nuclear": 6369.0,
+        "hydro": 9688.0,
+        "solar": 354.5,
+        "wind": 1626.2,
+        "biofuels": 818.5,
+        "other_renewables": 1441.8
+      }
+    },
+    {
+      "year": 2014,
+      "total_twh": 151239.2,
+      "sources": {
+        "coal": 44912.4,
+        "oil": 50336.4,
+        "gas": 33976.4,
+        "nuclear": 6466.0,
+        "hydro": 9895.9,
+        "solar": 502.0,
+        "wind": 1797.0,
+        "biofuels": 865.9,
+        "other_renewables": 1569.1
+      }
+    },
+    {
+      "year": 2015,
+      "total_twh": 152357.6,
+      "sources": {
+        "coal": 43695.3,
+        "oil": 51294.0,
+        "gas": 34780.0,
+        "nuclear": 6519.9,
+        "hydro": 9820.7,
+        "solar": 649.5,
+        "wind": 2105.7,
+        "biofuels": 898.4,
+        "other_renewables": 1669.7
+      }
+    },
+    {
+      "year": 2016,
+      "total_twh": 154221.5,
+      "sources": {
+        "coal": 42767.8,
+        "oil": 52314.5,
+        "gas": 35584.0,
+        "nuclear": 6567.0,
+        "hydro": 10090.3,
+        "solar": 824.2,
+        "wind": 2418.8,
+        "biofuels": 938.7,
+        "other_renewables": 1709.8
+      }
+    },
+    {
+      "year": 2017,
+      "total_twh": 157625.3,
+      "sources": {
+        "coal": 43226.3,
+        "oil": 53263.3,
+        "gas": 36603.1,
+        "nuclear": 6592.5,
+        "hydro": 10171.0,
+        "solar": 1114.7,
+        "wind": 2856.3,
+        "biofuels": 957.9,
+        "other_renewables": 1800.7
+      }
+    },
+    {
+      "year": 2018,
+      "total_twh": 161806.1,
+      "sources": {
+        "coal": 43897.3,
+        "oil": 53792.8,
+        "gas": 38317.1,
+        "nuclear": 6717.0,
+        "hydro": 10419.4,
+        "solar": 1431.8,
+        "wind": 3162.2,
+        "biofuels": 1038.8,
+        "other_renewables": 1952.1
+      }
+    },
+    {
+      "year": 2019,
+      "total_twh": 163694.6,
+      "sources": {
+        "coal": 43627.6,
+        "oil": 53997.3,
+        "gas": 39053.2,
+        "nuclear": 6920.2,
+        "hydro": 10501.5,
+        "solar": 1748.8,
+        "wind": 3520.4,
+        "biofuels": 1127.3,
+        "other_renewables": 2038.1
+      }
+    },
+    {
+      "year": 2020,
+      "total_twh": 157993.9,
+      "sources": {
+        "coal": 42316.3,
+        "oil": 49101.2,
+        "gas": 38704.0,
+        "nuclear": 6639.5,
+        "hydro": 10763.3,
+        "solar": 2116.7,
+        "wind": 3940.2,
+        "biofuels": 1068.2,
+        "other_renewables": 2152.3
+      }
+    },
+    {
+      "year": 2021,
+      "total_twh": 166043.5,
+      "sources": {
+        "coal": 44642.2,
+        "oil": 51846.8,
+        "gas": 40225.7,
+        "nuclear": 6903.3,
+        "hydro": 10575.5,
+        "solar": 2593.1,
+        "wind": 4582.8,
+        "biofuels": 1128.1,
+        "other_renewables": 2317.6
+      }
+    },
+    {
+      "year": 2022,
+      "total_twh": 169061.5,
+      "sources": {
+        "coal": 44926.9,
+        "oil": 53562.1,
+        "gas": 40059.7,
+        "nuclear": 6583.3,
+        "hydro": 10650.6,
+        "solar": 3249.7,
+        "wind": 5184.6,
+        "biofuels": 1193.1,
+        "other_renewables": 2379.5
+      }
+    },
+    {
+      "year": 2023,
+      "total_twh": 172238.8,
+      "sources": {
+        "coal": 45319.1,
+        "oil": 54838.7,
+        "gas": 40151.2,
+        "nuclear": 6677.1,
+        "hydro": 10392.1,
+        "solar": 4026.6,
+        "wind": 5665.2,
+        "biofuels": 1319.2,
+        "other_renewables": 2411.4
+      }
+    },
+    {
+      "year": 2024,
+      "total_twh": 176737.1,
+      "sources": {
+        "coal": 45850.5,
+        "oil": 55292.1,
+        "gas": 41278.3,
+        "nuclear": 6871.8,
+        "hydro": 10860.8,
+        "solar": 5150.6,
+        "wind": 6124.5,
+        "biofuels": 1366.9,
+        "other_renewables": 2476.4
+      }
+    }
+  ]
+}

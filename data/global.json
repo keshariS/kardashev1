@@ -1,0 +1,12 @@
+{
+  "kardashev_number": 0.7305,
+  "kardashev_progress_pct": 73.0453,
+  "kardashev_type1_threshold_w": 10000000000000000,
+  "total_primary_energy_twh": 176737.1,
+  "average_power_tw": 20.162,
+  "data_year": 2024,
+  "dataset_published": "April 2026",
+  "fetched_at": "2026-05-10T23:57:02Z",
+  "source": "Our World in Data / Energy Institute Statistical Review",
+  "source_url": "https://github.com/owid/energy-data"
+}

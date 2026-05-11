@@ -1,0 +1,16 @@
+{
+  "data_year": 2022,
+  "edition": "IEA World Energy Balances 2024",
+  "note": "Final energy consumption (not primary energy). Primary energy is higher due to conversion and transmission losses. Update SECTOR_DATA in fetch_data.py each year when IEA publishes new figures.",
+  "source_url": "https://www.iea.org/data-and-statistics/data-product/world-energy-balances",
+  "unit": "TWh",
+  "world": {
+    "industry": 43400,
+    "transport": 29700,
+    "residential": 26000,
+    "commercial": 11200,
+    "agriculture": 4500,
+    "other": 2400
+  },
+  "fetched_at": "2026-05-10T23:57:02Z"
+}

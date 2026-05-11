@@ -1,0 +1,3824 @@
+{
+  "data_year": 2023,
+  "dataset_published": "April 2026",
+  "unit": "TWh",
+  "country_count": 212,
+  "countries": [
+    {
+      "iso": "CHN",
+      "name": "China",
+      "primary_energy_twh": 47072.01,
+      "energy_per_capita_kwh": 33089.0,
+      "population": 1422584930,
+      "sources": {
+        "coal": 25181.21,
+        "oil": 9091.23,
+        "gas": 4048.38,
+        "nuclear": 1060.29,
+        "hydro": 2990.23,
+        "solar": 1424.76,
+        "wind": 2160.66,
+        "biofuels": 31.68,
+        "other_renewables": 619.36
+      }
+    },
+    {
+      "iso": "USA",
+      "name": "United States",
+      "primary_energy_twh": 26216.54,
+      "energy_per_capita_kwh": 76327.0,
+      "population": 343477330,
+      "sources": {
+        "coal": 2275.21,
+        "oil": 9967.95,
+        "gas": 8884.4,
+        "nuclear": 1989.4,
+        "hydro": 588.85,
+        "solar": 588.66,
+        "wind": 1037.55,
+        "biofuels": 495.13,
+        "other_renewables": 209.1
+      }
+    },
+    {
+      "iso": "IND",
+      "name": "India",
+      "primary_energy_twh": 10827.86,
+      "energy_per_capita_kwh": 7529.0,
+      "population": 1438069597,
+      "sources": {
+        "coal": 6137.22,
+        "oil": 2939.24,
+        "gas": 620.34,
+        "nuclear": 117.57,
+        "hydro": 364.47,
+        "solar": 283.23,
+        "wind": 200.26,
+        "biofuels": 34.34,
+        "other_renewables": 71.9
+      }
+    },
+    {
+      "iso": "RUS",
+      "name": "Russia",
+      "primary_energy_twh": 8760.9,
+      "energy_per_capita_kwh": 60237.0,
+      "population": 145440502,
+      "sources": {
+        "coal": 1060.09,
+        "oil": 2077.03,
+        "gas": 4533.71,
+        "nuclear": 530.2,
+        "hydro": 489.92,
+        "solar": 6.43,
+        "wind": 11.58,
+        "biofuels": 4.86,
+        "other_renewables": 2.65
+      }
+    },
+    {
+      "iso": "JPN",
+      "name": "Japan",
+      "primary_energy_twh": 4858.53,
+      "energy_per_capita_kwh": 39065.0,
+      "population": 124370947,
+      "sources": {
+        "coal": 1260.11,
+        "oil": 1882.66,
+        "gas": 916.11,
+        "nuclear": 188.93,
+        "hydro": 181.78,
+        "solar": 235.03,
+        "wind": 24.29,
+        "biofuels": 4.95,
+        "other_renewables": 131.29
+      }
+    },
+    {
+      "iso": "CAN",
+      "name": "Canada",
+      "primary_energy_twh": 3887.86,
+      "energy_per_capita_kwh": 98930.0,
+      "population": 39299098,
+      "sources": {
+        "coal": 102.97,
+        "oil": 1194.14,
+        "gas": 1241.22,
+        "nuclear": 215.68,
+        "hydro": 879.84,
+        "solar": 20.48,
+        "wind": 98.81,
+        "biofuels": 33.7,
+        "other_renewables": 30.63
+      }
+    },
+    {
+      "iso": "BRA",
+      "name": "Brazil",
+      "primary_energy_twh": 3853.75,
+      "energy_per_capita_kwh": 18252.0,
+      "population": 211140731,
+      "sources": {
+        "coal": 159.27,
+        "oil": 1425.2,
+        "gas": 298.76,
+        "nuclear": 35.38,
+        "hydro": 1039.02,
+        "solar": 123.5,
+        "wind": 233.66,
+        "biofuels": 263.01,
+        "other_renewables": 180.49
+      }
+    },
+    {
+      "iso": "IRN",
+      "name": "Iran",
+      "primary_energy_twh": 3596.1,
+      "energy_per_capita_kwh": 39688.0,
+      "population": 90608708,
+      "sources": {
+        "coal": 18.06,
+        "oil": 1031.42,
+        "gas": 2465.83,
+        "nuclear": 16.18,
+        "hydro": 55.65,
+        "solar": 1.67,
+        "wind": 2.94,
+        "biofuels": 0.0,
+        "other_renewables": 0.07
+      }
+    },
+    {
+      "iso": "KOR",
+      "name": "South Korea",
+      "primary_energy_twh": 3557.9,
+      "energy_per_capita_kwh": 68753.0,
+      "population": 51748744,
+      "sources": {
+        "coal": 844.99,
+        "oil": 1489.6,
+        "gas": 600.75,
+        "nuclear": 440.23,
+        "hydro": 9.06,
+        "solar": 81.06,
+        "wind": 8.27,
+        "biofuels": 8.09,
+        "other_renewables": 58.49
+      }
+    },
+    {
+      "iso": "SAU",
+      "name": "Saudi Arabia",
+      "primary_energy_twh": 3200.74,
+      "energy_per_capita_kwh": 96222.0,
+      "population": 33264289,
+      "sources": {
+        "coal": 1.55,
+        "oil": 2013.4,
+        "gas": 1173.55,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 7.62,
+        "wind": 3.87,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "DEU",
+      "name": "Germany",
+      "primary_energy_twh": 3178.89,
+      "energy_per_capita_kwh": 37598.0,
+      "population": 84548233,
+      "sources": {
+        "coal": 487.42,
+        "oil": 1165.51,
+        "gas": 727.97,
+        "nuclear": 17.6,
+        "hydro": 48.52,
+        "solar": 155.79,
+        "wind": 345.77,
+        "biofuels": 36.03,
+        "other_renewables": 154.91
+      }
+    },
+    {
+      "iso": "IDN",
+      "name": "Indonesia",
+      "primary_energy_twh": 2785.14,
+      "energy_per_capita_kwh": 9905.0,
+      "population": 281190068,
+      "sources": {
+        "coal": 1199.91,
+        "oil": 857.44,
+        "gas": 434.48,
+        "nuclear": 0.0,
+        "hydro": 59.98,
+        "solar": 1.74,
+        "wind": 1.17,
+        "biofuels": 112.38,
+        "other_renewables": 123.16
+      }
+    },
+    {
+      "iso": "FRA",
+      "name": "France",
+      "primary_energy_twh": 2406.51,
+      "energy_per_capita_kwh": 36221.0,
+      "population": 66438828,
+      "sources": {
+        "coal": 49.21,
+        "oil": 777.08,
+        "gas": 340.56,
+        "nuclear": 824.88,
+        "hydro": 135.9,
+        "solar": 51.98,
+        "wind": 125.36,
+        "biofuels": 32.65,
+        "other_renewables": 29.73
+      }
+    },
+    {
+      "iso": "MEX",
+      "name": "Mexico",
+      "primary_energy_twh": 2294.14,
+      "energy_per_capita_kwh": 17683.0,
+      "population": 129739761,
+      "sources": {
+        "coal": 77.31,
+        "oil": 991.9,
+        "gas": 1005.17,
+        "nuclear": 30.21,
+        "hydro": 50.27,
+        "solar": 56.92,
+        "wind": 50.49,
+        "biofuels": 2.81,
+        "other_renewables": 20.73
+      }
+    },
+    {
+      "iso": "TUR",
+      "name": "Turkey",
+      "primary_energy_twh": 1961.5,
+      "energy_per_capita_kwh": 22476.0,
+      "population": 87270502,
+      "sources": {
+        "coal": 465.5,
+        "oil": 645.45,
+        "gas": 480.77,
+        "nuclear": 0.0,
+        "hydro": 156.1,
+        "solar": 53.88,
+        "wind": 83.19,
+        "biofuels": 1.59,
+        "other_renewables": 62.37
+      }
+    },
+    {
+      "iso": "GBR",
+      "name": "United Kingdom",
+      "primary_energy_twh": 1929.63,
+      "energy_per_capita_kwh": 28095.0,
+      "population": 68682965,
+      "sources": {
+        "coal": 51.03,
+        "oil": 741.42,
+        "gas": 636.2,
+        "nuclear": 99.02,
+        "hydro": 13.51,
+        "solar": 33.86,
+        "wind": 200.75,
+        "biofuels": 26.67,
+        "other_renewables": 106.56
+      }
+    },
+    {
+      "iso": "ITA",
+      "name": "Italy",
+      "primary_energy_twh": 1680.65,
+      "energy_per_capita_kwh": 28247.0,
+      "population": 59499452,
+      "sources": {
+        "coal": 53.6,
+        "oil": 714.08,
+        "gas": 585.94,
+        "nuclear": 0.0,
+        "hydro": 98.82,
+        "solar": 74.91,
+        "wind": 57.66,
+        "biofuels": 15.28,
+        "other_renewables": 67.84
+      }
+    },
+    {
+      "iso": "AUS",
+      "name": "Australia",
+      "primary_energy_twh": 1657.38,
+      "energy_per_capita_kwh": 62658.0,
+      "population": 26451126,
+      "sources": {
+        "coal": 418.34,
+        "oil": 602.7,
+        "gas": 386.27,
+        "nuclear": 0.0,
+        "hydro": 36.78,
+        "solar": 109.74,
+        "wind": 77.73,
+        "biofuels": 1.26,
+        "other_renewables": 9.77
+      }
+    },
+    {
+      "iso": "ESP",
+      "name": "Spain",
+      "primary_energy_twh": 1569.63,
+      "energy_per_capita_kwh": 32761.0,
+      "population": 47911583,
+      "sources": {
+        "coal": 30.41,
+        "oil": 697.13,
+        "gas": 294.73,
+        "nuclear": 138.72,
+        "hydro": 60.97,
+        "solar": 118.5,
+        "wind": 156.77,
+        "biofuels": 28.8,
+        "other_renewables": 18.29
+      }
+    },
+    {
+      "iso": "ARE",
+      "name": "United Arab Emirates",
+      "primary_energy_twh": 1433.28,
+      "energy_per_capita_kwh": 134680.0,
+      "population": 10642089,
+      "sources": {
+        "coal": 28.41,
+        "oil": 610.68,
+        "gas": 670.1,
+        "nuclear": 84.0,
+        "hydro": 0.0,
+        "solar": 35.13,
+        "wind": 0.15,
+        "biofuels": 0.0,
+        "other_renewables": 0.66
+      }
+    },
+    {
+      "iso": "THA",
+      "name": "Thailand",
+      "primary_energy_twh": 1388.18,
+      "energy_per_capita_kwh": 19360.0,
+      "population": 71702436,
+      "sources": {
+        "coal": 168.05,
+        "oil": 639.62,
+        "gas": 471.74,
+        "nuclear": 0.0,
+        "hydro": 16.07,
+        "solar": 12.54,
+        "wind": 9.12,
+        "biofuels": 22.98,
+        "other_renewables": 44.64
+      }
+    },
+    {
+      "iso": "VNM",
+      "name": "Vietnam",
+      "primary_energy_twh": 1375.94,
+      "energy_per_capita_kwh": 13711.0,
+      "population": 100352189,
+      "sources": {
+        "coal": 632.71,
+        "oil": 362.14,
+        "gas": 72.06,
+        "nuclear": 0.0,
+        "hydro": 196.64,
+        "solar": 62.66,
+        "wind": 28.26,
+        "biofuels": 0.0,
+        "other_renewables": 2.71
+      }
+    },
+    {
+      "iso": "ZAF",
+      "name": "South Africa",
+      "primary_energy_twh": 1367.99,
+      "energy_per_capita_kwh": 21641.0,
+      "population": 63212386,
+      "sources": {
+        "coal": 955.85,
+        "oil": 290.04,
+        "gas": 47.45,
+        "nuclear": 19.76,
+        "hydro": 4.88,
+        "solar": 15.61,
+        "wind": 28.29,
+        "biofuels": 1.01,
+        "other_renewables": 1.47
+      }
+    },
+    {
+      "iso": "MYS",
+      "name": "Malaysia",
+      "primary_energy_twh": 1325.13,
+      "energy_per_capita_kwh": 37725.0,
+      "population": 35126295,
+      "sources": {
+        "coal": 285.27,
+        "oil": 488.65,
+        "gas": 438.36,
+        "nuclear": 0.0,
+        "hydro": 79.14,
+        "solar": 7.99,
+        "wind": 0.0,
+        "biofuels": 15.36,
+        "other_renewables": 4.6
+      }
+    },
+    {
+      "iso": "TWN",
+      "name": "Taiwan",
+      "primary_energy_twh": 1256.38,
+      "energy_per_capita_kwh": 53882.0,
+      "population": 23317145,
+      "sources": {
+        "coal": 413.88,
+        "oil": 452.23,
+        "gas": 279.47,
+        "nuclear": 43.42,
+        "hydro": 9.67,
+        "solar": 31.48,
+        "wind": 15.21,
+        "biofuels": 0.0,
+        "other_renewables": 6.28
+      }
+    },
+    {
+      "iso": "POL",
+      "name": "Poland",
+      "primary_energy_twh": 1132.88,
+      "energy_per_capita_kwh": 29226.0,
+      "population": 38762847,
+      "sources": {
+        "coal": 411.25,
+        "oil": 388.33,
+        "gas": 194.41,
+        "nuclear": 0.0,
+        "hydro": 5.88,
+        "solar": 27.09,
+        "wind": 58.97,
+        "biofuels": 14.93,
+        "other_renewables": 25.5
+      }
+    },
+    {
+      "iso": "EGY",
+      "name": "Egypt",
+      "primary_energy_twh": 1095.67,
+      "energy_per_capita_kwh": 9566.0,
+      "population": 114535772,
+      "sources": {
+        "coal": 13.63,
+        "oil": 414.18,
+        "gas": 600.39,
+        "nuclear": 0.0,
+        "hydro": 36.71,
+        "solar": 12.04,
+        "wind": 14.6,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ARG",
+      "name": "Argentina",
+      "primary_energy_twh": 1004.26,
+      "energy_per_capita_kwh": 22053.0,
+      "population": 45538402,
+      "sources": {
+        "coal": 13.3,
+        "oil": 370.75,
+        "gas": 449.48,
+        "nuclear": 21.86,
+        "hydro": 76.81,
+        "solar": 8.0,
+        "wind": 35.31,
+        "biofuels": 12.77,
+        "other_renewables": 7.51
+      }
+    },
+    {
+      "iso": "SGP",
+      "name": "Singapore",
+      "primary_energy_twh": 991.33,
+      "energy_per_capita_kwh": 171241.0,
+      "population": 5789092,
+      "sources": {
+        "coal": 3.91,
+        "oil": 859.01,
+        "gas": 123.31,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 2.27,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 2.62
+      }
+    },
+    {
+      "iso": "NLD",
+      "name": "Netherlands",
+      "primary_energy_twh": 939.9,
+      "energy_per_capita_kwh": 51950.0,
+      "population": 18092526,
+      "sources": {
+        "coal": 43.94,
+        "oil": 463.74,
+        "gas": 259.08,
+        "nuclear": 9.72,
+        "hydro": 0.17,
+        "solar": 47.75,
+        "wind": 72.01,
+        "biofuels": 11.16,
+        "other_renewables": 23.79
+      }
+    },
+    {
+      "iso": "PAK",
+      "name": "Pakistan",
+      "primary_energy_twh": 904.24,
+      "energy_per_capita_kwh": 3653.0,
+      "population": 247504505,
+      "sources": {
+        "coal": 129.55,
+        "oil": 223.84,
+        "gas": 378.13,
+        "nuclear": 54.57,
+        "hydro": 93.79,
+        "solar": 3.15,
+        "wind": 10.69,
+        "biofuels": 0.0,
+        "other_renewables": 2.28
+      }
+    },
+    {
+      "iso": "KAZ",
+      "name": "Kazakhstan",
+      "primary_energy_twh": 846.24,
+      "energy_per_capita_kwh": 41625.0,
+      "population": 20330109,
+      "sources": {
+        "coal": 423.52,
+        "oil": 185.64,
+        "gas": 199.52,
+        "nuclear": 0.0,
+        "hydro": 21.46,
+        "solar": 4.57,
+        "wind": 9.22,
+        "biofuels": 0.0,
+        "other_renewables": 0.02
+      }
+    },
+    {
+      "iso": "DZA",
+      "name": "Algeria",
+      "primary_energy_twh": 784.53,
+      "energy_per_capita_kwh": 16994.0,
+      "population": 46164222,
+      "sources": {
+        "coal": 2.1,
+        "oil": 238.2,
+        "gas": 542.33,
+        "nuclear": 0.0,
+        "hydro": 0.07,
+        "solar": 1.67,
+        "wind": 0.04,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "IRQ",
+      "name": "Iraq",
+      "primary_energy_twh": 717.83,
+      "energy_per_capita_kwh": 15926.0,
+      "population": 45074055,
+      "sources": {
+        "coal": 0.0,
+        "oil": 520.97,
+        "gas": 192.28,
+        "nuclear": 0.0,
+        "hydro": 3.37,
+        "solar": 0.92,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "VEN",
+      "name": "Venezuela",
+      "primary_energy_twh": 699.48,
+      "energy_per_capita_kwh": 24716.0,
+      "population": 28300861,
+      "sources": {
+        "coal": 2.3,
+        "oil": 211.61,
+        "gas": 296.83,
+        "nuclear": 0.0,
+        "hydro": 177.16,
+        "solar": 0.0,
+        "wind": 0.04,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BEL",
+      "name": "Belgium",
+      "primary_energy_twh": 650.56,
+      "energy_per_capita_kwh": 55542.0,
+      "population": 11712891,
+      "sources": {
+        "coal": 27.78,
+        "oil": 320.74,
+        "gas": 137.61,
+        "nuclear": 80.31,
+        "hydro": 0.99,
+        "solar": 19.07,
+        "wind": 37.67,
+        "biofuels": 8.72,
+        "other_renewables": 11.88
+      }
+    },
+    {
+      "iso": "QAT",
+      "name": "Qatar",
+      "primary_energy_twh": 619.77,
+      "energy_per_capita_kwh": 208039.0,
+      "population": 2979086,
+      "sources": {
+        "coal": 0.13,
+        "oil": 176.41,
+        "gas": 437.86,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 4.63,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.42
+      }
+    },
+    {
+      "iso": "COL",
+      "name": "Colombia",
+      "primary_energy_twh": 615.31,
+      "energy_per_capita_kwh": 11760.0,
+      "population": 52321152,
+      "sources": {
+        "coal": 54.29,
+        "oil": 254.75,
+        "gas": 130.54,
+        "nuclear": 0.0,
+        "hydro": 145.94,
+        "solar": 2.93,
+        "wind": 0.5,
+        "biofuels": 10.99,
+        "other_renewables": 5.54
+      }
+    },
+    {
+      "iso": "PHL",
+      "name": "Philippines",
+      "primary_energy_twh": 608.77,
+      "energy_per_capita_kwh": 5299.0,
+      "population": 114891199,
+      "sources": {
+        "coal": 247.63,
+        "oil": 254.3,
+        "gas": 32.04,
+        "nuclear": 0.0,
+        "hydro": 25.2,
+        "solar": 6.22,
+        "wind": 3.24,
+        "biofuels": 6.64,
+        "other_renewables": 37.94
+      }
+    },
+    {
+      "iso": "UZB",
+      "name": "Uzbekistan",
+      "primary_energy_twh": 600.41,
+      "energy_per_capita_kwh": 16841.0,
+      "population": 35652311,
+      "sources": {
+        "coal": 45.16,
+        "oil": 66.17,
+        "gas": 469.26,
+        "nuclear": 0.0,
+        "hydro": 17.07,
+        "solar": 1.52,
+        "wind": 0.02,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SWE",
+      "name": "Sweden",
+      "primary_energy_twh": 599.36,
+      "energy_per_capita_kwh": 56803.0,
+      "population": 10551493,
+      "sources": {
+        "coal": 18.65,
+        "oil": 129.9,
+        "gas": 8.77,
+        "nuclear": 118.22,
+        "hydro": 161.2,
+        "solar": 7.56,
+        "wind": 83.11,
+        "biofuels": 15.62,
+        "other_renewables": 36.56
+      }
+    },
+    {
+      "iso": "UKR",
+      "name": "Ukraine",
+      "primary_energy_twh": 588.13,
+      "energy_per_capita_kwh": 15587.0,
+      "population": 37732833,
+      "sources": {
+        "coal": 107.57,
+        "oil": 109.06,
+        "gas": 187.39,
+        "nuclear": 127.07,
+        "hydro": 31.04,
+        "solar": 13.92,
+        "wind": 2.3,
+        "biofuels": 0.56,
+        "other_renewables": 3.27
+      }
+    },
+    {
+      "iso": "NOR",
+      "name": "Norway",
+      "primary_energy_twh": 551.5,
+      "energy_per_capita_kwh": 99924.0,
+      "population": 5519167,
+      "sources": {
+        "coal": 8.46,
+        "oil": 108.04,
+        "gas": 37.75,
+        "nuclear": 0.0,
+        "hydro": 333.45,
+        "solar": 0.87,
+        "wind": 34.06,
+        "biofuels": 4.1,
+        "other_renewables": 0.78
+      }
+    },
+    {
+      "iso": "NGA",
+      "name": "Nigeria",
+      "primary_energy_twh": 533.85,
+      "energy_per_capita_kwh": 2343.0,
+      "population": 227882949,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BGD",
+      "name": "Bangladesh",
+      "primary_energy_twh": 506.66,
+      "energy_per_capita_kwh": 2955.0,
+      "population": 171466986,
+      "sources": {
+        "coal": 81.77,
+        "oil": 139.37,
+        "gas": 281.26,
+        "nuclear": 0.0,
+        "hydro": 1.67,
+        "solar": 2.26,
+        "wind": 0.04,
+        "biofuels": 0.0,
+        "other_renewables": 0.04
+      }
+    },
+    {
+      "iso": "KWT",
+      "name": "Kuwait",
+      "primary_energy_twh": 498.83,
+      "energy_per_capita_kwh": 103090.0,
+      "population": 4838781,
+      "sources": {
+        "coal": 1.08,
+        "oil": 260.35,
+        "gas": 236.95,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.33,
+        "wind": 0.09,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CHL",
+      "name": "Chile",
+      "primary_energy_twh": 497.49,
+      "energy_per_capita_kwh": 25306.0,
+      "population": 19658833,
+      "sources": {
+        "coal": 39.13,
+        "oil": 225.66,
+        "gas": 75.93,
+        "nuclear": 0.0,
+        "hydro": 57.04,
+        "solar": 44.97,
+        "wind": 22.91,
+        "biofuels": 0.0,
+        "other_renewables": 23.54
+      }
+    },
+    {
+      "iso": "TKM",
+      "name": "Turkmenistan",
+      "primary_energy_twh": 438.46,
+      "energy_per_capita_kwh": 59538.0,
+      "population": 7364437,
+      "sources": {
+        "coal": 0.0,
+        "oil": 85.47,
+        "gas": 352.97,
+        "nuclear": 0.0,
+        "hydro": 0.01,
+        "solar": 0.02,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "OMN",
+      "name": "Oman",
+      "primary_energy_twh": 435.36,
+      "energy_per_capita_kwh": 86223.0,
+      "population": 5049267,
+      "sources": {
+        "coal": 1.05,
+        "oil": 126.78,
+        "gas": 302.24,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 4.67,
+        "wind": 0.3,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CZE",
+      "name": "Czechia",
+      "primary_energy_twh": 411.24,
+      "energy_per_capita_kwh": 38044.0,
+      "population": 10809722,
+      "sources": {
+        "coal": 125.1,
+        "oil": 107.82,
+        "gas": 66.97,
+        "nuclear": 74.17,
+        "hydro": 5.76,
+        "solar": 7.05,
+        "wind": 1.71,
+        "biofuels": 3.5,
+        "other_renewables": 16.22
+      }
+    },
+    {
+      "iso": "AUT",
+      "name": "Austria",
+      "primary_energy_twh": 393.96,
+      "energy_per_capita_kwh": 43148.0,
+      "population": 9130434,
+      "sources": {
+        "coal": 27.95,
+        "oil": 134.1,
+        "gas": 68.81,
+        "nuclear": 0.0,
+        "hydro": 99.2,
+        "solar": 15.6,
+        "wind": 19.6,
+        "biofuels": 5.41,
+        "other_renewables": 14.24
+      }
+    },
+    {
+      "iso": "ROU",
+      "name": "Romania",
+      "primary_energy_twh": 359.37,
+      "energy_per_capita_kwh": 18797.0,
+      "population": 19118482,
+      "sources": {
+        "coal": 30.74,
+        "oil": 131.04,
+        "gas": 91.16,
+        "nuclear": 27.3,
+        "hydro": 44.24,
+        "solar": 5.43,
+        "wind": 18.41,
+        "biofuels": 4.61,
+        "other_renewables": 1.39
+      }
+    },
+    {
+      "iso": "PER",
+      "name": "Peru",
+      "primary_energy_twh": 343.3,
+      "energy_per_capita_kwh": 10143.0,
+      "population": 33845616,
+      "sources": {
+        "coal": 7.83,
+        "oil": 143.33,
+        "gas": 100.52,
+        "nuclear": 0.0,
+        "hydro": 70.95,
+        "solar": 2.6,
+        "wind": 5.75,
+        "biofuels": 5.46,
+        "other_renewables": 1.68
+      }
+    },
+    {
+      "iso": "FIN",
+      "name": "Finland",
+      "primary_energy_twh": 334.14,
+      "energy_per_capita_kwh": 59656.0,
+      "population": 5601185,
+      "sources": {
+        "coal": 25.06,
+        "oil": 89.03,
+        "gas": 11.63,
+        "nuclear": 83.68,
+        "hydro": 37.07,
+        "solar": 1.75,
+        "wind": 36.69,
+        "biofuels": 6.26,
+        "other_renewables": 35.45
+      }
+    },
+    {
+      "iso": "CHE",
+      "name": "Switzerland",
+      "primary_energy_twh": 317.27,
+      "energy_per_capita_kwh": 35766.0,
+      "population": 8870564,
+      "sources": {
+        "coal": 0.85,
+        "oil": 107.32,
+        "gas": 33.96,
+        "nuclear": 56.91,
+        "hydro": 90.19,
+        "solar": 11.28,
+        "wind": 0.41,
+        "biofuels": 2.06,
+        "other_renewables": 6.27
+      }
+    },
+    {
+      "iso": "GRC",
+      "name": "Greece",
+      "primary_energy_twh": 305.9,
+      "energy_per_capita_kwh": 29864.0,
+      "population": 10242910,
+      "sources": {
+        "coal": 14.27,
+        "oil": 171.3,
+        "gas": 53.82,
+        "nuclear": 0.0,
+        "hydro": 9.31,
+        "solar": 21.69,
+        "wind": 26.88,
+        "biofuels": 2.77,
+        "other_renewables": 2.05
+      }
+    },
+    {
+      "iso": "BLR",
+      "name": "Belarus",
+      "primary_energy_twh": 303.53,
+      "energy_per_capita_kwh": 33298.0,
+      "population": 9115679,
+      "sources": {
+        "coal": 11.26,
+        "oil": 91.94,
+        "gas": 167.84,
+        "nuclear": 28.62,
+        "hydro": 0.73,
+        "solar": 0.37,
+        "wind": 0.42,
+        "biofuels": 0.0,
+        "other_renewables": 1.59
+      }
+    },
+    {
+      "iso": "ISR",
+      "name": "Israel",
+      "primary_energy_twh": 284.39,
+      "energy_per_capita_kwh": 30724.0,
+      "population": 9256311,
+      "sources": {
+        "coal": 35.18,
+        "oil": 120.64,
+        "gas": 105.03,
+        "nuclear": 0.0,
+        "hydro": 0.06,
+        "solar": 20.03,
+        "wind": 0.96,
+        "biofuels": 0.76,
+        "other_renewables": 0.35
+      }
+    },
+    {
+      "iso": "MAR",
+      "name": "Morocco",
+      "primary_energy_twh": 271.15,
+      "energy_per_capita_kwh": 7190.0,
+      "population": 37712516,
+      "sources": {
+        "coal": 81.01,
+        "oil": 158.35,
+        "gas": 8.88,
+        "nuclear": 0.0,
+        "hydro": 0.4,
+        "solar": 5.15,
+        "wind": 15.96,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PRT",
+      "name": "Portugal",
+      "primary_energy_twh": 265.97,
+      "energy_per_capita_kwh": 25499.0,
+      "population": 10430735,
+      "sources": {
+        "coal": 0.06,
+        "oil": 125.77,
+        "gas": 44.7,
+        "nuclear": 0.0,
+        "hydro": 29.36,
+        "solar": 12.59,
+        "wind": 32.06,
+        "biofuels": 3.96,
+        "other_renewables": 12.53
+      }
+    },
+    {
+      "iso": "BHR",
+      "name": "Bahrain",
+      "primary_energy_twh": 258.89,
+      "energy_per_capita_kwh": 164933.0,
+      "population": 1569674,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "HUN",
+      "name": "Hungary",
+      "primary_energy_twh": 255.31,
+      "energy_per_capita_kwh": 26358.0,
+      "population": 9686465,
+      "sources": {
+        "coal": 10.51,
+        "oil": 94.09,
+        "gas": 82.15,
+        "nuclear": 38.82,
+        "hydro": 0.54,
+        "solar": 16.89,
+        "wind": 1.58,
+        "biofuels": 3.61,
+        "other_renewables": 4.94
+      }
+    },
+    {
+      "iso": "HKG",
+      "name": "Hong Kong",
+      "primary_energy_twh": 251.25,
+      "energy_per_capita_kwh": 33758.0,
+      "population": 7442738,
+      "sources": {
+        "coal": 40.8,
+        "oil": 159.28,
+        "gas": 48.47,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.79,
+        "wind": 0.0,
+        "biofuels": 1.34,
+        "other_renewables": 0.5
+      }
+    },
+    {
+      "iso": "NZL",
+      "name": "New Zealand",
+      "primary_energy_twh": 239.73,
+      "energy_per_capita_kwh": 46345.0,
+      "population": 5172837,
+      "sources": {
+        "coal": 11.39,
+        "oil": 88.69,
+        "gas": 38.52,
+        "nuclear": 0.0,
+        "hydro": 64.82,
+        "solar": 0.91,
+        "wind": 7.9,
+        "biofuels": 0.06,
+        "other_renewables": 27.77
+      }
+    },
+    {
+      "iso": "ECU",
+      "name": "Ecuador",
+      "primary_energy_twh": 232.23,
+      "energy_per_capita_kwh": 12916.0,
+      "population": 17980079,
+      "sources": {
+        "coal": 0.3,
+        "oil": 159.14,
+        "gas": 4.89,
+        "nuclear": 0.0,
+        "hydro": 61.83,
+        "solar": 0.09,
+        "wind": 0.51,
+        "biofuels": 0.27,
+        "other_renewables": 1.12
+      }
+    },
+    {
+      "iso": "AZE",
+      "name": "Azerbaijan",
+      "primary_energy_twh": 217.43,
+      "energy_per_capita_kwh": 21073.0,
+      "population": 10318209,
+      "sources": {
+        "coal": 0.0,
+        "oil": 72.1,
+        "gas": 140.04,
+        "nuclear": 0.0,
+        "hydro": 4.3,
+        "solar": 0.2,
+        "wind": 0.14,
+        "biofuels": 0.0,
+        "other_renewables": 0.35
+      }
+    },
+    {
+      "iso": "LBY",
+      "name": "Libya",
+      "primary_energy_twh": 215.91,
+      "energy_per_capita_kwh": 29554.0,
+      "population": 7305659,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BGR",
+      "name": "Bulgaria",
+      "primary_energy_twh": 197.13,
+      "energy_per_capita_kwh": 29007.0,
+      "population": 6795805,
+      "sources": {
+        "coal": 42.95,
+        "oil": 59.37,
+        "gas": 25.26,
+        "nuclear": 39.42,
+        "hydro": 7.51,
+        "solar": 8.59,
+        "wind": 3.86,
+        "biofuels": 2.02,
+        "other_renewables": 5.86
+      }
+    },
+    {
+      "iso": "DNK",
+      "name": "Denmark",
+      "primary_energy_twh": 195.2,
+      "energy_per_capita_kwh": 32817.0,
+      "population": 5948134,
+      "sources": {
+        "coal": 7.76,
+        "oil": 88.93,
+        "gas": 16.21,
+        "nuclear": 0.0,
+        "hydro": 0.05,
+        "solar": 8.2,
+        "wind": 47.3,
+        "biofuels": 2.59,
+        "other_renewables": 20.11
+      }
+    },
+    {
+      "iso": "PRK",
+      "name": "North Korea",
+      "primary_energy_twh": 184.5,
+      "energy_per_capita_kwh": 6984.0,
+      "population": 26418196,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SVK",
+      "name": "Slovakia",
+      "primary_energy_twh": 184.33,
+      "energy_per_capita_kwh": 33405.0,
+      "population": 5518057,
+      "sources": {
+        "coal": 27.4,
+        "oil": 49.07,
+        "gas": 41.98,
+        "nuclear": 44.72,
+        "hydro": 11.43,
+        "solar": 1.48,
+        "wind": 0.01,
+        "biofuels": 1.92,
+        "other_renewables": 4.42
+      }
+    },
+    {
+      "iso": "IRL",
+      "name": "Ireland",
+      "primary_energy_twh": 180.46,
+      "energy_per_capita_kwh": 34725.0,
+      "population": 5196629,
+      "sources": {
+        "coal": 6.58,
+        "oil": 84.53,
+        "gas": 48.26,
+        "nuclear": 0.0,
+        "hydro": 2.3,
+        "solar": 1.58,
+        "wind": 28.93,
+        "biofuels": 3.49,
+        "other_renewables": 2.6
+      }
+    },
+    {
+      "iso": "SRB",
+      "name": "Serbia",
+      "primary_energy_twh": 178.35,
+      "energy_per_capita_kwh": 26332.0,
+      "population": 6773204,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TTO",
+      "name": "Trinidad and Tobago",
+      "primary_energy_twh": 163.92,
+      "energy_per_capita_kwh": 109068.0,
+      "population": 1502938,
+      "sources": {
+        "coal": 0.0,
+        "oil": 18.71,
+        "gas": 145.2,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.01,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MMR",
+      "name": "Myanmar",
+      "primary_energy_twh": 133.01,
+      "energy_per_capita_kwh": 2457.0,
+      "population": 54133800,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "DOM",
+      "name": "Dominican Republic",
+      "primary_energy_twh": 130.61,
+      "energy_per_capita_kwh": 11526.0,
+      "population": 11331269,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TUN",
+      "name": "Tunisia",
+      "primary_energy_twh": 120.69,
+      "energy_per_capita_kwh": 9892.0,
+      "population": 12200434,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "JOR",
+      "name": "Jordan",
+      "primary_energy_twh": 110.33,
+      "energy_per_capita_kwh": 9645.0,
+      "population": 11439220,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BOL",
+      "name": "Bolivia",
+      "primary_energy_twh": 105.28,
+      "energy_per_capita_kwh": 8599.0,
+      "population": 12244161,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "HRV",
+      "name": "Croatia",
+      "primary_energy_twh": 105.12,
+      "energy_per_capita_kwh": 26983.0,
+      "population": 3896023,
+      "sources": {
+        "coal": 4.02,
+        "oil": 43.71,
+        "gas": 25.0,
+        "nuclear": 0.0,
+        "hydro": 19.9,
+        "solar": 1.01,
+        "wind": 6.31,
+        "biofuels": 0.01,
+        "other_renewables": 3.33
+      }
+    },
+    {
+      "iso": "GHA",
+      "name": "Ghana",
+      "primary_energy_twh": 103.9,
+      "energy_per_capita_kwh": 3075.0,
+      "population": 33787916,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PAN",
+      "name": "Panama",
+      "primary_energy_twh": 101.94,
+      "energy_per_capita_kwh": 22863.0,
+      "population": 4458758,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LKA",
+      "name": "Sri Lanka",
+      "primary_energy_twh": 100.08,
+      "energy_per_capita_kwh": 4357.0,
+      "population": 22971615,
+      "sources": {
+        "coal": 16.47,
+        "oil": 61.57,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 14.29,
+        "solar": 4.15,
+        "wind": 1.91,
+        "biofuels": 0.0,
+        "other_renewables": 0.36
+      }
+    },
+    {
+      "iso": "AGO",
+      "name": "Angola",
+      "primary_energy_twh": 98.5,
+      "energy_per_capita_kwh": 2680.0,
+      "population": 36749909,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SYR",
+      "name": "Syria",
+      "primary_energy_twh": 93.83,
+      "energy_per_capita_kwh": 3977.0,
+      "population": 23594623,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GTM",
+      "name": "Guatemala",
+      "primary_energy_twh": 90.81,
+      "energy_per_capita_kwh": 5010.0,
+      "population": 18124841,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SDN",
+      "name": "Sudan",
+      "primary_energy_twh": 90.13,
+      "energy_per_capita_kwh": 1801.0,
+      "population": 50042800,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ETH",
+      "name": "Ethiopia",
+      "primary_energy_twh": 89.23,
+      "energy_per_capita_kwh": 693.0,
+      "population": 128691695,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "KEN",
+      "name": "Kenya",
+      "primary_energy_twh": 88.98,
+      "energy_per_capita_kwh": 1608.0,
+      "population": 55339007,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "primary_energy_twh": 85.16,
+      "energy_per_capita_kwh": 26736.0,
+      "population": 3185072,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CUB",
+      "name": "Cuba",
+      "primary_energy_twh": 84.2,
+      "energy_per_capita_kwh": 7640.0,
+      "population": 11019932,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PRI",
+      "name": "Puerto Rico",
+      "primary_energy_twh": 81.98,
+      "energy_per_capita_kwh": 25288.0,
+      "population": 3242022,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "KHM",
+      "name": "Cambodia",
+      "primary_energy_twh": 79.99,
+      "energy_per_capita_kwh": 4591.0,
+      "population": 17423884,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TZA",
+      "name": "Tanzania",
+      "primary_energy_twh": 79.88,
+      "energy_per_capita_kwh": 1199.0,
+      "population": 66617607,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CIV",
+      "name": "Cote d'Ivoire",
+      "primary_energy_twh": 77.54,
+      "energy_per_capita_kwh": 2488.0,
+      "population": 31165653,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LAO",
+      "name": "Laos",
+      "primary_energy_twh": 77.42,
+      "energy_per_capita_kwh": 10100.0,
+      "population": 7665001,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SVN",
+      "name": "Slovenia",
+      "primary_energy_twh": 73.76,
+      "energy_per_capita_kwh": 34820.0,
+      "population": 2118394,
+      "sources": {
+        "coal": 8.33,
+        "oil": 26.14,
+        "gas": 7.67,
+        "nuclear": 13.67,
+        "hydro": 12.25,
+        "solar": 2.4,
+        "wind": 0.02,
+        "biofuels": 1.09,
+        "other_renewables": 0.94
+      }
+    },
+    {
+      "iso": "LBN",
+      "name": "Lebanon",
+      "primary_energy_twh": 72.94,
+      "energy_per_capita_kwh": 12633.0,
+      "population": 5773494,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LTU",
+      "name": "Lithuania",
+      "primary_energy_twh": 68.57,
+      "energy_per_capita_kwh": 24025.0,
+      "population": 2854104,
+      "sources": {
+        "coal": 1.38,
+        "oil": 38.19,
+        "gas": 15.65,
+        "nuclear": 0.0,
+        "hydro": 1.1,
+        "solar": 1.68,
+        "wind": 6.19,
+        "biofuels": 1.37,
+        "other_renewables": 2.38
+      }
+    },
+    {
+      "iso": "MNG",
+      "name": "Mongolia",
+      "primary_energy_twh": 67.52,
+      "energy_per_capita_kwh": 19675.0,
+      "population": 3431938,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ISL",
+      "name": "Iceland",
+      "primary_energy_twh": 64.07,
+      "energy_per_capita_kwh": 165313.0,
+      "population": 387559,
+      "sources": {
+        "coal": 0.97,
+        "oil": 10.94,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 34.7,
+        "solar": 0.0,
+        "wind": 0.02,
+        "biofuels": 0.21,
+        "other_renewables": 18.77
+      }
+    },
+    {
+      "iso": "GEO",
+      "name": "Georgia",
+      "primary_energy_twh": 62.57,
+      "energy_per_capita_kwh": 16434.0,
+      "population": 3807494,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NPL",
+      "name": "Nepal",
+      "primary_energy_twh": 57.47,
+      "energy_per_capita_kwh": 1935.0,
+      "population": 29694614,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "KGZ",
+      "name": "Kyrgyzstan",
+      "primary_energy_twh": 57.17,
+      "energy_per_capita_kwh": 8083.0,
+      "population": 7073523,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MOZ",
+      "name": "Mozambique",
+      "primary_energy_twh": 57.07,
+      "energy_per_capita_kwh": 1697.0,
+      "population": 33635163,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "EST",
+      "name": "Estonia",
+      "primary_energy_twh": 56.28,
+      "energy_per_capita_kwh": 41163.0,
+      "population": 1367195,
+      "sources": {
+        "coal": 29.26,
+        "oil": 15.56,
+        "gas": 3.13,
+        "nuclear": 0.0,
+        "hydro": 0.06,
+        "solar": 1.76,
+        "wind": 1.67,
+        "biofuels": 0.22,
+        "other_renewables": 4.3
+      }
+    },
+    {
+      "iso": "BRN",
+      "name": "Brunei",
+      "primary_energy_twh": 54.25,
+      "energy_per_capita_kwh": 118212.0,
+      "population": 458959,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ZWE",
+      "name": "Zimbabwe",
+      "primary_energy_twh": 51.99,
+      "energy_per_capita_kwh": 3181.0,
+      "population": 16340829,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "HND",
+      "name": "Honduras",
+      "primary_energy_twh": 51.92,
+      "energy_per_capita_kwh": 4877.0,
+      "population": 10644853,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PRY",
+      "name": "Paraguay",
+      "primary_energy_twh": 51.62,
+      "energy_per_capita_kwh": 7542.0,
+      "population": 6844150,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ZMB",
+      "name": "Zambia",
+      "primary_energy_twh": 50.2,
+      "energy_per_capita_kwh": 2422.0,
+      "population": 20723967,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TJK",
+      "name": "Tajikistan",
+      "primary_energy_twh": 49.3,
+      "energy_per_capita_kwh": 4745.0,
+      "population": 10389807,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ARM",
+      "name": "Armenia",
+      "primary_energy_twh": 47.18,
+      "energy_per_capita_kwh": 16028.0,
+      "population": 2943398,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CRI",
+      "name": "Costa Rica",
+      "primary_energy_twh": 45.97,
+      "energy_per_capita_kwh": 9005.0,
+      "population": 5105526,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "URY",
+      "name": "Uruguay",
+      "primary_energy_twh": 45.43,
+      "energy_per_capita_kwh": 13409.0,
+      "population": 3388083,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SLV",
+      "name": "El Salvador",
+      "primary_energy_twh": 45.16,
+      "energy_per_capita_kwh": 7157.0,
+      "population": 6309629,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SEN",
+      "name": "Senegal",
+      "primary_energy_twh": 43.99,
+      "energy_per_capita_kwh": 2433.0,
+      "population": 18077573,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "AFG",
+      "name": "Afghanistan",
+      "primary_energy_twh": 41.06,
+      "energy_per_capita_kwh": 990.0,
+      "population": 41454762,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LVA",
+      "name": "Latvia",
+      "primary_energy_twh": 40.76,
+      "energy_per_capita_kwh": 21655.0,
+      "population": 1882399,
+      "sources": {
+        "coal": 0.17,
+        "oil": 19.47,
+        "gas": 7.67,
+        "nuclear": 0.0,
+        "hydro": 9.26,
+        "solar": 0.58,
+        "wind": 0.66,
+        "biofuels": 0.16,
+        "other_renewables": 2.06
+      }
+    },
+    {
+      "iso": "COD",
+      "name": "Democratic Republic of Congo",
+      "primary_energy_twh": 40.46,
+      "energy_per_capita_kwh": 382.0,
+      "population": 105789733,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MLT",
+      "name": "Malta",
+      "primary_energy_twh": 37.9,
+      "energy_per_capita_kwh": 71108.0,
+      "population": 532964,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LUX",
+      "name": "Luxembourg",
+      "primary_energy_twh": 37.7,
+      "energy_per_capita_kwh": 56679.0,
+      "population": 665101,
+      "sources": {
+        "coal": 0.27,
+        "oil": 26.82,
+        "gas": 5.73,
+        "nuclear": 0.0,
+        "hydro": 0.22,
+        "solar": 0.72,
+        "wind": 1.21,
+        "biofuels": 1.44,
+        "other_renewables": 1.14
+      }
+    },
+    {
+      "iso": "MDA",
+      "name": "Moldova",
+      "primary_energy_twh": 36.51,
+      "energy_per_capita_kwh": 11904.0,
+      "population": 3067072,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CMR",
+      "name": "Cameroon",
+      "primary_energy_twh": 35.52,
+      "energy_per_capita_kwh": 1252.0,
+      "population": 28372690,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "JAM",
+      "name": "Jamaica",
+      "primary_energy_twh": 35.03,
+      "energy_per_capita_kwh": 12337.0,
+      "population": 2839785,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "YEM",
+      "name": "Yemen",
+      "primary_energy_twh": 34.49,
+      "energy_per_capita_kwh": 876.0,
+      "population": 39390800,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MKD",
+      "name": "North Macedonia",
+      "primary_energy_twh": 32.52,
+      "energy_per_capita_kwh": 17753.0,
+      "population": 1831800,
+      "sources": {
+        "coal": 9.46,
+        "oil": 13.79,
+        "gas": 3.52,
+        "nuclear": 0.0,
+        "hydro": 3.96,
+        "solar": 0.87,
+        "wind": 0.39,
+        "biofuels": 0.0,
+        "other_renewables": 0.2
+      }
+    },
+    {
+      "iso": "CYP",
+      "name": "Cyprus",
+      "primary_energy_twh": 32.12,
+      "energy_per_capita_kwh": 23878.0,
+      "population": 1344981,
+      "sources": {
+        "coal": 0.32,
+        "oil": 28.67,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 2.03,
+        "wind": 0.51,
+        "biofuels": 0.26,
+        "other_renewables": 0.17
+      }
+    },
+    {
+      "iso": "UGA",
+      "name": "Uganda",
+      "primary_energy_twh": 32.12,
+      "energy_per_capita_kwh": 660.0,
+      "population": 48656606,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ANT",
+      "name": "Netherlands Antilles",
+      "primary_energy_twh": 30.9,
+      "energy_per_capita_kwh": null,
+      "population": null,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MLI",
+      "name": "Mali",
+      "primary_energy_twh": 30.0,
+      "energy_per_capita_kwh": 1262.0,
+      "population": 23769130,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GNQ",
+      "name": "Equatorial Guinea",
+      "primary_energy_twh": 29.51,
+      "energy_per_capita_kwh": 15975.0,
+      "population": 1847556,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BEN",
+      "name": "Benin",
+      "primary_energy_twh": 26.76,
+      "energy_per_capita_kwh": 1897.0,
+      "population": 14111035,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PNG",
+      "name": "Papua New Guinea",
+      "primary_energy_twh": 26.74,
+      "energy_per_capita_kwh": 2573.0,
+      "population": 10389638,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PSE",
+      "name": "Palestine",
+      "primary_energy_twh": 23.76,
+      "energy_per_capita_kwh": 4393.0,
+      "population": 5409201,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BWA",
+      "name": "Botswana",
+      "primary_energy_twh": 23.58,
+      "energy_per_capita_kwh": 9508.0,
+      "population": 2480242,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BFA",
+      "name": "Burkina Faso",
+      "primary_energy_twh": 23.49,
+      "energy_per_capita_kwh": 1020.0,
+      "population": 23025777,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ALB",
+      "name": "Albania",
+      "primary_energy_twh": 22.58,
+      "energy_per_capita_kwh": 8032.0,
+      "population": 2811660,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MUS",
+      "name": "Mauritius",
+      "primary_energy_twh": 22.46,
+      "energy_per_capita_kwh": 17639.0,
+      "population": 1273591,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GIN",
+      "name": "Guinea",
+      "primary_energy_twh": 22.1,
+      "energy_per_capita_kwh": 1534.0,
+      "population": 14405469,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NIC",
+      "name": "Nicaragua",
+      "primary_energy_twh": 21.32,
+      "energy_per_capita_kwh": 3124.0,
+      "population": 6823619,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MRT",
+      "name": "Mauritania",
+      "primary_energy_twh": 20.8,
+      "energy_per_capita_kwh": 4142.0,
+      "population": 5022442,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NAM",
+      "name": "Namibia",
+      "primary_energy_twh": 18.87,
+      "energy_per_capita_kwh": 6370.0,
+      "population": 2963102,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NCL",
+      "name": "New Caledonia",
+      "primary_energy_twh": 18.5,
+      "energy_per_capita_kwh": 63833.0,
+      "population": 289879,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MDG",
+      "name": "Madagascar",
+      "primary_energy_twh": 16.6,
+      "energy_per_capita_kwh": 532.0,
+      "population": 31195937,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GAB",
+      "name": "Gabon",
+      "primary_energy_twh": 16.09,
+      "energy_per_capita_kwh": 6477.0,
+      "population": 2484790,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BTN",
+      "name": "Bhutan",
+      "primary_energy_twh": 14.77,
+      "energy_per_capita_kwh": 18781.0,
+      "population": 786386,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NER",
+      "name": "Niger",
+      "primary_energy_twh": 13.59,
+      "energy_per_capita_kwh": 519.0,
+      "population": 26159863,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MAC",
+      "name": "Macao",
+      "primary_energy_twh": 13.53,
+      "energy_per_capita_kwh": 18944.0,
+      "population": 713916,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "COG",
+      "name": "Congo",
+      "primary_energy_twh": 13.32,
+      "energy_per_capita_kwh": 2154.0,
+      "population": 6182890,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TGO",
+      "name": "Togo",
+      "primary_energy_twh": 12.37,
+      "energy_per_capita_kwh": 1505.0,
+      "population": 8223853,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BHS",
+      "name": "Bahamas",
+      "primary_energy_twh": 12.22,
+      "energy_per_capita_kwh": 30598.0,
+      "population": 399452,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "HTI",
+      "name": "Haiti",
+      "primary_energy_twh": 11.89,
+      "energy_per_capita_kwh": 1022.0,
+      "population": 11637402,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MNE",
+      "name": "Montenegro",
+      "primary_energy_twh": 11.77,
+      "energy_per_capita_kwh": 18583.0,
+      "population": 633553,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SUR",
+      "name": "Suriname",
+      "primary_energy_twh": 11.22,
+      "energy_per_capita_kwh": 17847.0,
+      "population": 628892,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GUY",
+      "name": "Guyana",
+      "primary_energy_twh": 11.15,
+      "energy_per_capita_kwh": 13494.0,
+      "population": 826357,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MWI",
+      "name": "Malawi",
+      "primary_energy_twh": 11.08,
+      "energy_per_capita_kwh": 525.0,
+      "population": 21104480,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "VIR",
+      "name": "United States Virgin Islands",
+      "primary_energy_twh": 9.71,
+      "energy_per_capita_kwh": 113334.0,
+      "population": 85712,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TCD",
+      "name": "Chad",
+      "primary_energy_twh": 8.5,
+      "energy_per_capita_kwh": 440.0,
+      "population": 19319075,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MDV",
+      "name": "Maldives",
+      "primary_energy_twh": 7.84,
+      "energy_per_capita_kwh": 14913.0,
+      "population": 526009,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GUM",
+      "name": "Guam",
+      "primary_energy_twh": 7.42,
+      "energy_per_capita_kwh": 44566.0,
+      "population": 166522,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "RWA",
+      "name": "Rwanda",
+      "primary_energy_twh": 7.39,
+      "energy_per_capita_kwh": 530.0,
+      "population": 13954473,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SSD",
+      "name": "South Sudan",
+      "primary_energy_twh": 7.04,
+      "energy_per_capita_kwh": 613.0,
+      "population": 11483370,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "FJI",
+      "name": "Fiji",
+      "primary_energy_twh": 6.87,
+      "energy_per_capita_kwh": 7437.0,
+      "population": 924150,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SWZ",
+      "name": "Eswatini",
+      "primary_energy_twh": 6.79,
+      "energy_per_capita_kwh": 5517.0,
+      "population": 1230507,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SLE",
+      "name": "Sierra Leone",
+      "primary_energy_twh": 5.71,
+      "energy_per_capita_kwh": 674.0,
+      "population": 8460523,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BRB",
+      "name": "Barbados",
+      "primary_energy_twh": 5.65,
+      "energy_per_capita_kwh": 20014.0,
+      "population": 282347,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LSO",
+      "name": "Lesotho",
+      "primary_energy_twh": 5.5,
+      "energy_per_capita_kwh": 2379.0,
+      "population": 2311476,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ABW",
+      "name": "Aruba",
+      "primary_energy_twh": 4.87,
+      "energy_per_capita_kwh": 45116.0,
+      "population": 107946,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "PYF",
+      "name": "French Polynesia",
+      "primary_energy_twh": 4.35,
+      "energy_per_capita_kwh": 15488.0,
+      "population": 281125,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BDI",
+      "name": "Burundi",
+      "primary_energy_twh": 3.79,
+      "energy_per_capita_kwh": 277.0,
+      "population": 13689455,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BLZ",
+      "name": "Belize",
+      "primary_energy_twh": 3.71,
+      "energy_per_capita_kwh": 9012.0,
+      "population": 411112,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SYC",
+      "name": "Seychelles",
+      "primary_energy_twh": 3.71,
+      "energy_per_capita_kwh": 28967.0,
+      "population": 127961,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "DJI",
+      "name": "Djibouti",
+      "primary_energy_twh": 3.52,
+      "energy_per_capita_kwh": 3056.0,
+      "population": 1152951,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SOM",
+      "name": "Somalia",
+      "primary_energy_twh": 3.49,
+      "energy_per_capita_kwh": 190.0,
+      "population": 18358622,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "FRO",
+      "name": "Faroe Islands",
+      "primary_energy_twh": 3.2,
+      "energy_per_capita_kwh": 58450.0,
+      "population": 54738,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CPV",
+      "name": "Cape Verde",
+      "primary_energy_twh": 3.06,
+      "energy_per_capita_kwh": 5861.0,
+      "population": 522335,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CYM",
+      "name": "Cayman Islands",
+      "primary_energy_twh": 3.06,
+      "energy_per_capita_kwh": 41943.0,
+      "population": 73055,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ERI",
+      "name": "Eritrea",
+      "primary_energy_twh": 3.03,
+      "energy_per_capita_kwh": 873.0,
+      "population": 3470391,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ATG",
+      "name": "Antigua and Barbuda",
+      "primary_energy_twh": 3.01,
+      "energy_per_capita_kwh": 32266.0,
+      "population": 93331,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LBR",
+      "name": "Liberia",
+      "primary_energy_twh": 2.93,
+      "energy_per_capita_kwh": 534.0,
+      "population": 5493035,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TLS",
+      "name": "East Timor",
+      "primary_energy_twh": 2.77,
+      "energy_per_capita_kwh": 2000.0,
+      "population": 1384292,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GRL",
+      "name": "Greenland",
+      "primary_energy_twh": 2.63,
+      "energy_per_capita_kwh": 46981.0,
+      "population": 55951,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "LCA",
+      "name": "Saint Lucia",
+      "primary_energy_twh": 2.5,
+      "energy_per_capita_kwh": 13927.0,
+      "population": 179291,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "BMU",
+      "name": "Bermuda",
+      "primary_energy_twh": 2.33,
+      "energy_per_capita_kwh": 35958.0,
+      "population": 64721,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GMB",
+      "name": "Gambia",
+      "primary_energy_twh": 2.16,
+      "energy_per_capita_kwh": 800.0,
+      "population": 2697846,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TCA",
+      "name": "Turks and Caicos Islands",
+      "primary_energy_twh": 1.86,
+      "energy_per_capita_kwh": 40225.0,
+      "population": 46221,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "COM",
+      "name": "Comoros",
+      "primary_energy_twh": 1.78,
+      "energy_per_capita_kwh": 2092.0,
+      "population": 850390,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ASM",
+      "name": "American Samoa",
+      "primary_energy_twh": 1.58,
+      "energy_per_capita_kwh": 33220.0,
+      "population": 47544,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "WSM",
+      "name": "Samoa",
+      "primary_energy_twh": 1.49,
+      "energy_per_capita_kwh": 6880.0,
+      "population": 216673,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GNB",
+      "name": "Guinea-Bissau",
+      "primary_energy_twh": 1.48,
+      "energy_per_capita_kwh": 689.0,
+      "population": 2153343,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "CAF",
+      "name": "Central African Republic",
+      "primary_energy_twh": 1.44,
+      "energy_per_capita_kwh": 280.0,
+      "population": 5152415,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "GRD",
+      "name": "Grenada",
+      "primary_energy_twh": 1.43,
+      "energy_per_capita_kwh": 12221.0,
+      "population": 117094,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SLB",
+      "name": "Solomon Islands",
+      "primary_energy_twh": 1.33,
+      "energy_per_capita_kwh": 1657.0,
+      "population": 800014,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "VUT",
+      "name": "Vanuatu",
+      "primary_energy_twh": 1.22,
+      "energy_per_capita_kwh": 3791.0,
+      "population": 320422,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ESH",
+      "name": "Western Sahara",
+      "primary_energy_twh": 1.17,
+      "energy_per_capita_kwh": 2020.0,
+      "population": 579734,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "primary_energy_twh": 1.12,
+      "energy_per_capita_kwh": 23859.0,
+      "population": 46783,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "primary_energy_twh": 1.11,
+      "energy_per_capita_kwh": 10917.0,
+      "population": 101331,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "VGB",
+      "name": "British Virgin Islands",
+      "primary_energy_twh": 0.77,
+      "energy_per_capita_kwh": 19623.0,
+      "population": 39009,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "DMA",
+      "name": "Dominica",
+      "primary_energy_twh": 0.71,
+      "energy_per_capita_kwh": 10663.0,
+      "population": 66531,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "TON",
+      "name": "Tonga",
+      "primary_energy_twh": 0.71,
+      "energy_per_capita_kwh": 6819.0,
+      "population": 104613,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "STP",
+      "name": "Sao Tome and Principe",
+      "primary_energy_twh": 0.6,
+      "energy_per_capita_kwh": 2601.0,
+      "population": 230882,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "FSM",
+      "name": "Micronesia (country)",
+      "primary_energy_twh": 0.5,
+      "energy_per_capita_kwh": 4428.0,
+      "population": 112646,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "COK",
+      "name": "Cook Islands",
+      "primary_energy_twh": 0.44,
+      "energy_per_capita_kwh": 30724.0,
+      "population": 14244,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NRU",
+      "name": "Nauru",
+      "primary_energy_twh": 0.35,
+      "energy_per_capita_kwh": 29242.0,
+      "population": 11900,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "KIR",
+      "name": "Kiribati",
+      "primary_energy_twh": 0.33,
+      "energy_per_capita_kwh": 2514.0,
+      "population": 132540,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SPM",
+      "name": "Saint Pierre and Miquelon",
+      "primary_energy_twh": 0.25,
+      "energy_per_capita_kwh": 43662.0,
+      "population": 5707,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "FLK",
+      "name": "Falkland Islands",
+      "primary_energy_twh": 0.16,
+      "energy_per_capita_kwh": 44928.0,
+      "population": 3498,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "MSR",
+      "name": "Montserrat",
+      "primary_energy_twh": 0.11,
+      "energy_per_capita_kwh": 24284.0,
+      "population": 4440,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "ATA",
+      "name": "Antarctica",
+      "primary_energy_twh": 0.06,
+      "energy_per_capita_kwh": null,
+      "population": null,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "SHN",
+      "name": "Saint Helena",
+      "primary_energy_twh": 0.05,
+      "energy_per_capita_kwh": 9813.0,
+      "population": 5316,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    },
+    {
+      "iso": "NIU",
+      "name": "Niue",
+      "primary_energy_twh": 0.04,
+      "energy_per_capita_kwh": 19803.0,
+      "population": 1841,
+      "sources": {
+        "coal": 0.0,
+        "oil": 0.0,
+        "gas": 0.0,
+        "nuclear": 0.0,
+        "hydro": 0.0,
+        "solar": 0.0,
+        "wind": 0.0,
+        "biofuels": 0.0,
+        "other_renewables": 0.0
+      }
+    }
+  ]
+}

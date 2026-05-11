@@ -1,0 +1,1 @@
+This is a sample project for the kardashev1 tracker

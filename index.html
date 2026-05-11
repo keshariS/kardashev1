@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kardashev Type I Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <nav class="site-nav-bar" aria-label="Site navigation">
+    <a href="index.html" class="k1-logo">K<span class="k1-one">1</span></a>
+    <div class="top-nav-links">
+      <a href="index.html"    class="top-nav-link active">Overview</a>
+      <a href="breakdown.html" class="top-nav-link">Breakdown</a>
+      <a href="sectors.html"  class="top-nav-link">Sectors</a>
+    </div>
+  </nav>
+
+  <!-- Star field — rendered behind everything -->
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <main>
+    <header class="site-header">
+      <div class="site-title">KARDASHEV TRACKER</div>
+      <div class="site-subtitle">Humanity's race to becoming a Type I civilization</div>
+    </header>
+
+    <section class="hero">
+
+      <!-- Earth globe + progress ring -->
+      <div class="earth-scene">
+        <div id="globe"></div>
+
+        <svg class="k-ring" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Kardashev progress ring">
+          <defs>
+            <!-- Layered glow: inner sharp + outer soft -->
+            <filter id="hud-glow" x="-40%" y="-40%" width="180%" height="180%">
+              <feGaussianBlur stdDeviation="2" result="b1"/>
+              <feGaussianBlur stdDeviation="5" result="b2"/>
+              <feMerge>
+                <feMergeNode in="b2"/>
+                <feMergeNode in="b1"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+            <filter id="dot-glow" x="-150%" y="-150%" width="400%" height="400%">
+              <feGaussianBlur stdDeviation="2.5" result="blur"/>
+              <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          </defs>
+
+          <!-- Outer orbital ring (thin, full circle) -->
+          <circle class="ring-orbit-outer" cx="100" cy="100" r="95"/>
+
+          <!-- Pulsing soft glow layer — same arc as progress, wider stroke, animated opacity -->
+          <circle class="ring-pulse" id="ring-pulse"
+                  cx="100" cy="100" r="90"
+                  transform="rotate(-90 100 100)"/>
+
+          <!-- Segmented dashed track (full circle) -->
+          <circle class="ring-track" cx="100" cy="100" r="90"/>
+
+          <!-- Inner orbital ring (thin, full circle) -->
+          <circle class="ring-orbit-inner" cx="100" cy="100" r="85"/>
+
+          <!-- Main progress arc -->
+          <circle id="ring-progress" class="ring-progress"
+                  cx="100" cy="100" r="90"
+                  transform="rotate(-90 100 100)"
+                  filter="url(#hud-glow)"/>
+
+          <!-- Cross-hatch tick marks straddling the ring at 0%, 25%, 50%, 75% -->
+          <g class="ring-ticks">
+            <!-- 0% / K=1 — top (12 o'clock) -->
+            <line class="tick-major" x1="100" y1="3"   x2="100" y2="17"/>
+            <!-- 25% — right (3 o'clock) -->
+            <line class="tick-major" x1="183" y1="100" x2="197" y2="100"/>
+            <!-- 50% — bottom (6 o'clock) -->
+            <line class="tick-major" x1="100" y1="183" x2="100" y2="197"/>
+            <!-- 75% — left (9 o'clock) -->
+            <line class="tick-major" x1="3"   y1="100" x2="17"  y2="100"/>
+          </g>
+
+          <!-- K=1 label above top tick -->
+          <text class="ring-label" x="100" y="1" text-anchor="middle">K = 1</text>
+
+          <!-- Expanding halo — same center as tip dot, animated by JS -->
+          <circle id="ring-tip-halo" class="ring-tip-halo" cx="100" cy="10" r="4"/>
+
+          <!-- Tip dot at arc's leading edge (JS moves this) -->
+          <circle id="ring-tip" class="ring-tip" cx="100" cy="10" r="4"
+                  filter="url(#dot-glow)"/>
+
+          <!-- Milestone year labels at 25%, 50%, and current ~73% -->
+          <text class="ring-year" x="200" y="98" text-anchor="start">~8000 BC</text>
+          <text class="ring-year" x="100" y="203" text-anchor="middle">~1000 CE</text>
+          <text class="ring-year" x="2" y="107" text-anchor="end">2024</text>
+        </svg>
+      </div>
+
+      <!-- K number and stats panel -->
+      <div class="k-display">
+        <div class="k-number" id="k-number">–</div>
+        <div class="k-progress-text" id="k-progress-text">–</div>
+        <div class="k-stats">
+          <span id="k-energy">–</span>
+          <span class="sep">·</span>
+          <span id="k-power">–</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="data-footer" id="data-footer"></footer>
+
+  <!-- Globe.gl from CDN — loads Three.js internally -->
+  <script src="https://unpkg.com/globe.gl@2.32.1/dist/globe.gl.min.js"></script>
+  <script src="js/stars.js"></script>
+  <script src="js/hero.js"></script>
+</body>
+</html>
