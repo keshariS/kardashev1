@@ -46,3 +46,6 @@
   resize();
   requestAnimationFrame(frame);
 })();
+
+const _yearEl = document.getElementById('footer-year');
+if (_yearEl) _yearEl.textContent = new Date().getFullYear();

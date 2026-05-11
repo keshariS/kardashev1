@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energy Efficiency — Kardashev Type I Tracker</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/efficiency.css">
+</head>
+<body>
+
+  <nav class="site-nav-bar" aria-label="Site navigation">
+    <a href="index.html" class="k1-logo">K<span class="k1-one">1</span></a>
+    <div class="top-nav-links">
+      <a href="index.html#overview" class="top-nav-link">Overview</a>
+      <a href="generation.html"     class="top-nav-link">Generation</a>
+      <a href="consumption.html"    class="top-nav-link">Consumption</a>
+      <a href="efficiency.html"     class="top-nav-link active">Efficiency</a>
+    </div>
+  </nav>
+
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <main>
+    <header class="site-header">
+      <div class="site-title">ENERGY EFFICIENCY</div>
+      <div class="site-subtitle">How much of what we generate actually gets used?</div>
+    </header>
+
+    <!-- ── 1. The Conversion Gap ─────────────────────────────── -->
+    <section class="eff-section">
+      <div class="eff-hd">
+        <div>
+          <h2 class="eff-title">The Conversion Gap <span class="yr-tag" id="gap-year"></span></h2>
+          <p class="eff-desc">Primary energy input vs final energy delivered to end users</p>
+        </div>
+      </div>
+      <div class="gap-card eff-card">
+        <div class="gap-stats">
+          <div class="gap-stat">
+            <div class="gap-val gap-val-primary" id="gap-primary">–</div>
+            <div class="gap-label">TWh Primary Energy</div>
+            <div class="gap-sub">Raw input from all sources</div>
+          </div>
+          <div class="gap-arrow" aria-hidden="true">→</div>
+          <div class="gap-stat">
+            <div class="gap-val gap-val-final" id="gap-final">–</div>
+            <div class="gap-label">TWh Final Energy</div>
+            <div class="gap-sub">Delivered to end users</div>
+          </div>
+          <div class="gap-arrow" aria-hidden="true">→</div>
+          <div class="gap-stat">
+            <div class="gap-val gap-val-lost" id="gap-lost-val">–</div>
+            <div class="gap-label">TWh Lost</div>
+            <div class="gap-sub">Waste heat &amp; transmission</div>
+          </div>
+        </div>
+        <div class="gap-bar-wrap">
+          <div class="gap-bar" role="img" aria-label="Energy conversion bar">
+            <div class="gap-bar-final" id="gap-bar-final" style="width:0%"></div>
+            <div class="gap-bar-lost"  id="gap-bar-lost"  style="width:0%"></div>
+          </div>
+          <div class="gap-bar-labels">
+            <span class="gbl-used" id="gbl-used">– delivered</span>
+            <span class="gbl-lost" id="gbl-lost">– lost</span>
+          </div>
+        </div>
+        <p class="gap-footnote">
+          "Final energy" is what actually reaches factories, homes and vehicles. The gap between primary
+          and final is dominated by thermal conversion losses in coal, gas, and nuclear power stations —
+          all of which operate under the same thermodynamic limits.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── 2. Efficiency on the K Scale ────────────────────── -->
+    <section class="eff-section">
+      <div class="eff-hd">
+        <div>
+          <h2 class="eff-title">Efficiency on the K Scale</h2>
+          <p class="eff-desc">What conversion losses actually mean for our Kardashev rating</p>
+        </div>
+      </div>
+      <div class="eff-kscale-card eff-card">
+        <div class="ks-compare">
+          <div class="ks-stat">
+            <div class="ks-val" id="ks-primary">–</div>
+            <div class="ks-label">K · primary energy</div>
+            <div class="ks-sub">Total input including waste &nbsp;·&nbsp; <span id="ks-primary-twh">–</span> TWh</div>
+          </div>
+          <div class="ks-vs">vs</div>
+          <div class="ks-stat">
+            <div class="ks-val ks-val-final" id="ks-final">–</div>
+            <div class="ks-label">K · final energy only</div>
+            <div class="ks-sub">Useful work reaching end users &nbsp;·&nbsp; <span id="ks-final-twh">–</span> TWh</div>
+          </div>
+        </div>
+        <p class="ks-body">
+          The Kardashev number is defined by <em>total primary energy input</em> — which means conversion
+          waste counts toward the score. Our 33.7% loss rate actually inflates K by ~0.018: a perfectly
+          efficient civilisation delivering the same useful energy would record a slightly lower K, because
+          it would need less total primary input.
+        </p>
+        <p class="ks-body">
+          K&thinsp;=&thinsp;1 requires <strong>10<sup>16</sup>&thinsp;W — 87.6 million TWh per year</strong>,
+          roughly 496× our current total. Efficiency improvements alone cannot close that gap; they reduce
+          primary energy demand without raising raw throughput. The path to K&thinsp;=&thinsp;1 requires
+          genuinely commanding more energy — solar, wind, fusion — not just wasting less of what we already
+          harvest. Efficiency matters because it makes sustainable growth cheaper and faster, not because
+          it directly advances the K number.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── 3. Source efficiency cards ───────────────────────── -->
+    <section class="eff-section">
+      <div class="eff-hd">
+        <div>
+          <h2 class="eff-title">Efficiency by Source</h2>
+          <p class="eff-desc">Fraction of raw input that becomes usable electricity or work</p>
+        </div>
+      </div>
+      <div class="src-eff-grid" id="src-eff-grid"></div>
+      <p class="eff-note">
+        For thermal sources (coal, gas, nuclear), efficiency = electrical output ÷ fuel heat content.
+        For direct-electric sources (solar, wind, hydro), captured energy converts to electricity
+        with minimal loss — the "uncaptured" resource continues naturally in the environment.
+      </p>
+    </section>
+
+    <!-- ── 4. Pathways to K=1 ────────────────────────────────── -->
+    <section class="eff-section">
+      <div class="eff-hd">
+        <div>
+          <h2 class="eff-title">Pathways to K&thinsp;=&thinsp;1</h2>
+          <p class="eff-desc">The efficiency levers that could accelerate civilisational progress</p>
+        </div>
+      </div>
+      <div class="pathway-grid" id="pathway-grid"></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <span class="sf-left"><span id="footer-year">2026</span> &ndash; <a href="https://kesharis.github.io/" target="_blank" rel="noopener">Shuvam Keshari</a></span>
+    <span class="sf-right">Data: <a href="https://ourworldindata.org/energy" target="_blank" rel="noopener">Our World in Data</a></span>
+  </footer>
+
+  <script src="js/stars.js"></script>
+  <script src="js/efficiency.js"></script>
+</body>
+</html>

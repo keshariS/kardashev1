@@ -1,0 +1,418 @@
+/* ================================================================
+   Kardashev — Energy Efficiency page styles
+   ================================================================ */
+
+/* ── Section shell ────────────────────────────────────────────── */
+.eff-section {
+  width: min(100%, 1100px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.eff-hd {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.eff-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(0.8rem, 2vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--text-mid);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.yr-tag {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.58rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  padding: 0.15em 0.55em;
+  border-radius: 4px;
+  letter-spacing: 0.1em;
+}
+
+.eff-desc {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-top: 0.25rem;
+}
+
+/* ── Card base ────────────────────────────────────────────────── */
+.eff-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(8px);
+}
+
+/* ── Shared note style ────────────────────────────────────────── */
+.eff-note {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  padding: 0.85rem 1.1rem;
+  background: rgba(15, 23, 42, 0.5);
+  border: 1px solid var(--border);
+  border-left: 3px solid rgba(249, 115, 22, 0.4);
+  border-radius: 6px;
+  margin: 0;
+}
+
+/* ── Conversion Gap card ──────────────────────────────────────── */
+.gap-stats {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.gap-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+  min-width: 130px;
+}
+
+.gap-val {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--text);
+}
+
+.gap-val-final { color: #10b981; }
+.gap-val-lost  { color: #ef4444; opacity: 0.85; }
+
+.gap-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  color: var(--text-mid);
+  text-transform: uppercase;
+}
+
+.gap-sub {
+  font-size: 0.67rem;
+  color: var(--text-dim);
+}
+
+.gap-arrow {
+  font-size: 1.6rem;
+  color: var(--border);
+  flex-shrink: 0;
+  align-self: center;
+  flex: 0;
+  min-width: auto;
+}
+
+/* ── Gap visualisation bar ────────────────────────────────────── */
+.gap-bar-wrap { margin-bottom: 1rem; }
+
+.gap-bar {
+  display: flex;
+  height: 18px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+}
+
+.gap-bar-final {
+  background: #10b981;
+  height: 100%;
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gap-bar-lost {
+  background: #ef4444;
+  opacity: 0.5;
+  height: 100%;
+  transition: width 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gap-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.45rem;
+}
+
+.gbl-used {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  color: #10b981;
+  letter-spacing: 0.08em;
+}
+
+.gbl-lost {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  color: #ef4444;
+  letter-spacing: 0.08em;
+  opacity: 0.85;
+}
+
+.gap-footnote {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  line-height: 1.65;
+  border-top: 1px solid var(--border);
+  padding-top: 0.85rem;
+  margin: 0;
+}
+
+/* ── K Scale comparison card ──────────────────────────────────── */
+.eff-kscale-card { border-top: 3px solid var(--accent); }
+
+.ks-compare {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.ks-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 150px;
+}
+
+.ks-val {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(1.5rem, 3.5vw, 2.4rem);
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1;
+}
+
+.ks-val-final { color: #10b981; }
+
+.ks-label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--text-mid);
+  text-transform: uppercase;
+}
+
+.ks-sub {
+  font-size: 0.67rem;
+  color: var(--text-dim);
+  line-height: 1.4;
+}
+
+.ks-vs {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  letter-spacing: 0.2em;
+  flex-shrink: 0;
+}
+
+.ks-body {
+  font-size: 0.79rem;
+  color: var(--text-dim);
+  line-height: 1.75;
+  margin: 0 0 0.75rem;
+}
+
+.ks-body:last-child { margin-bottom: 0; }
+
+.ks-body em {
+  color: var(--text-mid);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.ks-body strong { color: var(--text-mid); }
+
+/* ── Source efficiency grid ───────────────────────────────────── */
+.src-eff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.src-eff-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  backdrop-filter: blur(8px);
+}
+
+.eff-type-renewable { border-top: 3px solid #10b981; }
+.eff-type-fossil    { border-top: 3px solid #6b7280; }
+.eff-type-thermal   { border-top: 3px solid #7c3aed; }
+
+.seff-header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.seff-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.seff-name {
+  flex: 1;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--text-mid);
+  text-transform: uppercase;
+}
+
+.seff-pct {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: var(--text);
+  letter-spacing: 0.01em;
+}
+
+.seff-bar-track {
+  height: 5px;
+  border-radius: 3px;
+  background: rgba(255,255,255,0.06);
+  overflow: hidden;
+}
+
+.seff-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  opacity: 0.85;
+  transition: width 0.9s ease;
+}
+
+.seff-note {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* ── Pathways grid ────────────────────────────────────────────── */
+.pathway-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.pathway-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--pw-color, var(--accent));
+  border-radius: 10px;
+  padding: 1.25rem 1.25rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  backdrop-filter: blur(8px);
+}
+
+.pw-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.pw-icon {
+  font-size: 1.3rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.pw-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.pw-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: var(--pw-color, var(--accent));
+  text-transform: uppercase;
+}
+
+.pw-metric {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.pw-metric-label {
+  font-size: 0.58rem;
+  font-weight: 400;
+  color: var(--text-dim);
+  letter-spacing: 0.1em;
+  margin-left: 0.25em;
+}
+
+.pw-body {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  line-height: 1.65;
+  margin: 0;
+  flex: 1;
+}
+
+.pw-impact {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+  padding-top: 0.6rem;
+  line-height: 1.5;
+}
+
+/* ── Responsive ───────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .eff-card { padding: 1rem; }
+
+  .gap-stats {
+    gap: 0.85rem;
+    justify-content: space-between;
+  }
+
+  .gap-arrow { font-size: 1.1rem; }
+
+  .paradox-callout { gap: 1rem; }
+
+  .src-eff-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 380px) {
+  .src-eff-grid { grid-template-columns: 1fr; }
+}

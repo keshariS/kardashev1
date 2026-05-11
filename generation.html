@@ -3,22 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energy Breakdown — Kardashev Type I Tracker</title>
+  <title>Energy Generation — Kardashev Type I Tracker</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/breakdown.css">
+  <link rel="stylesheet" href="css/generation.css">
 </head>
 <body>
 
   <nav class="site-nav-bar" aria-label="Site navigation">
     <a href="index.html" class="k1-logo">K<span class="k1-one">1</span></a>
     <div class="top-nav-links">
-      <a href="index.html"     class="top-nav-link">Overview</a>
-      <a href="breakdown.html" class="top-nav-link active">Breakdown</a>
-      <a href="sectors.html"   class="top-nav-link">Sectors</a>
+      <a href="index.html#overview" class="top-nav-link">Overview</a>
+      <a href="generation.html"     class="top-nav-link active">Generation</a>
+      <a href="consumption.html"    class="top-nav-link">Consumption</a>
+      <a href="efficiency.html"     class="top-nav-link">Efficiency</a>
     </div>
   </nav>
 
@@ -26,8 +27,8 @@
 
   <main>
     <header class="site-header">
-      <div class="site-title">ENERGY BREAKDOWN</div>
-      <div class="site-subtitle">Global primary energy by source &amp; country</div>
+      <div class="site-title">ENERGY GENERATION</div>
+      <div class="site-subtitle">Where does humanity's energy come from?</div>
     </header>
 
     <!-- ── 1. Source mix ──────────────────────────────────────── -->
@@ -51,12 +52,12 @@
       <div class="fossil-summary" id="fossil-summary"></div>
     </section>
 
-    <!-- ── 2. Top 10 nations ──────────────────────────────────── -->
+    <!-- ── 2. Top generating nations ─────────────────────────── -->
     <section class="bd-section">
       <div class="bd-hd">
         <div>
-          <h2 class="bd-title">Top 10 Energy Nations <span class="yr-tag" id="top10-year"></span></h2>
-          <p class="bd-desc">Countries ranked by primary energy consumption</p>
+          <h2 class="bd-title">Top Generating Nations <span class="yr-tag" id="top10-year"></span></h2>
+          <p class="bd-desc">Countries ranked by primary energy production &amp; consumption</p>
         </div>
         <div class="map-controls">
           <button class="map-toggle active" data-mode="total">Total</button>
@@ -83,8 +84,13 @@
 
   </main>
 
+  <footer class="site-footer">
+    <span class="sf-left"><span id="footer-year">2026</span> &ndash; <a href="https://kesharis.github.io/" target="_blank" rel="noopener">Shuvam Keshari</a></span>
+    <span class="sf-right">Data: <a href="https://ourworldindata.org/energy" target="_blank" rel="noopener">Our World in Data</a></span>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="js/stars.js"></script>
-  <script src="js/breakdown.js"></script>
+  <script src="js/generation.js"></script>
 </body>
 </html>

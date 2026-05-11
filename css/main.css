@@ -35,6 +35,11 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Subtle radial nebula centred on the Earth — makes it feel like
    the planet's atmosphere is illuminating the surrounding space. */
 body::before {
@@ -64,7 +69,7 @@ body::before {
 main {
   position: relative;
   z-index: 1;
-  min-height: 100dvh;
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,7 +104,9 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2.5rem;
+  gap: 4rem;
+  margin-top: -1.6rem; /* tightens gap from site-header to ~0.4rem */
+  min-height: calc(100svh - 9rem);
 }
 
 /* ── Earth scene ─────────────────────────────────────────────── */
@@ -409,30 +416,289 @@ main {
 .ring-year {
   fill: var(--text-dim);
   font-family: 'Orbitron', monospace;
-  font-size: 4px;
-  letter-spacing: 0.06em;
-  opacity: 0.65;
+  font-size: 5.5px;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
 }
 
-/* ── Data source footer ──────────────────────────────────────── */
-.data-footer {
-  position: fixed;
-  bottom: 0.7rem;
-  right: 1rem;
+/* Minor tick marks at 12.5 / 37.5 / 62.5 / 87.5% */
+.tick-minor {
+  stroke: var(--ring-fill);
+  stroke-width: 0.44;
+  stroke-linecap: butt;
+  opacity: 0.35;
+}
+
+/* ── Site footer ─────────────────────────────────────────────── */
+.site-footer {
+  position: relative;
   z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: rgba(3, 11, 26, 0.9);
+  border-top: 1px solid var(--border);
+  backdrop-filter: blur(14px);
   font-size: 0.62rem;
   color: var(--text-dim);
   letter-spacing: 0.04em;
-  pointer-events: none;
+  flex-shrink: 0;
 }
 
-.data-footer a {
-  color: var(--text-dim);
+.site-footer a {
+  color: var(--text-mid);
   text-decoration: none;
-  pointer-events: auto;
+  transition: color 0.18s;
 }
 
-.data-footer a:hover { color: var(--accent); }
+.site-footer a:hover { color: var(--accent); }
+
+.sf-right { text-align: right; }
+
+/* ── Overview section ────────────────────────────────────────── */
+.ov-section {
+  scroll-margin-top: 3.5rem; /* clear the sticky nav on anchor jump */
+  width: min(100%, 1100px);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.ov-hd {
+  text-align: center;
+}
+
+.ov-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(0.8rem, 2vw, 1.05rem);
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  color: var(--text-mid);
+  margin: 0;
+}
+
+.ov-subtitle {
+  font-size: 0.74rem;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+  margin-top: 0.3rem;
+}
+
+/* Three-column card grid */
+.ov-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.ov-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.35rem 1.35rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  backdrop-filter: blur(8px);
+}
+
+.ov-card-formula {
+  border-color: rgba(249, 115, 22, 0.2);
+}
+
+/* Card header row */
+.ov-card-hd {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.ov-card-icon { font-size: 1rem; line-height: 1; }
+
+.ov-card-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+
+/* Body text */
+.ov-body {
+  font-size: 0.8rem;
+  color: var(--text-mid);
+  line-height: 1.65;
+}
+
+.ov-body strong { color: var(--text); font-weight: 500; }
+
+/* Type I / II / III rows */
+.ov-type-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin-top: 0.2rem;
+}
+
+.ov-type {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 7px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--border);
+}
+
+.ov-type-badge {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 900;
+  width: 1.6em;
+  height: 1.6em;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.t1 { background: rgba(249,115,22,0.15); color: #f97316; }
+.t2 { background: rgba(99,102,241,0.15); color: #818cf8; }
+.t3 { background: rgba(34,197,94,0.12);  color: #4ade80; }
+
+.ov-type-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.ov-type-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  color: var(--text);
+}
+
+.ov-type-desc {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+
+.ov-type-val {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.62rem;
+  color: var(--text-mid);
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+/* Formula display */
+.ov-formula-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 1.1rem 0 0.6rem;
+}
+
+.ov-formula {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--accent);
+}
+
+.ov-fvar {
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+}
+
+.ov-feq {
+  font-size: 1.2rem;
+  opacity: 0.6;
+}
+
+.ov-frac {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.ov-fnum {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  border-bottom: 1.5px solid var(--accent);
+  padding-bottom: 0.25rem;
+  width: 100%;
+  text-align: center;
+}
+
+.ov-fden {
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+/* Formula legend */
+.ov-formula-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.75rem 0.9rem;
+  background: rgba(249, 115, 22, 0.05);
+  border: 1px solid rgba(249, 115, 22, 0.15);
+  border-radius: 7px;
+}
+
+.ov-leg-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.72rem;
+}
+
+.ov-leg-sym {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.62rem;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  min-width: 3.5rem;
+}
+
+.ov-leg-def { color: var(--text-dim); }
+
+/* ── Civilisation type cards ─────────────────────────────────── */
+.ov-card-t1 { border-top: 3px solid #f97316; }
+.ov-card-t2 { border-top: 3px solid #818cf8; }
+.ov-card-t3 { border-top: 3px solid #4ade80; }
+
+.ov-type-threshold {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--text-mid);
+  margin-top: -0.2rem;
+}
+
+.ov-evol-hd {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  margin-top: auto; /* push separator to consistent position */
+}
 
 /* ── Responsive ──────────────────────────────────────────────── */
 
@@ -445,10 +711,19 @@ main {
 @media (max-width: 480px) {
   main  { padding: 1rem 0.75rem 0.75rem; gap: 1rem; }
   .hero { gap: 1.25rem; }
-  .site-subtitle { display: none; }   /* save vertical space */
   .k-number { font-size: clamp(2.4rem, 12vw, 3.2rem); }
   .page-nav { flex-direction: column; align-items: stretch; }
   .nav-card { justify-content: center; }
+
+  .hero { min-height: calc(100svh - 7rem); }
+
+  .ring-year { font-size: 8px; }
+
+  .ov-grid { grid-template-columns: 1fr; }
+  .ov-card { padding: 1rem; }
+  .ov-formula-wrap { padding: 0.8rem 0 0.4rem; }
+  .ov-fvar { font-size: 1.2rem; }
+  .ov-fnum, .ov-fden { font-size: 0.78rem; }
 }
 
 /* Very small phones (≤360px) */
